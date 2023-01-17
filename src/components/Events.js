@@ -24,18 +24,20 @@ import { data } from "../data";
 
 const Events = () => {
   return (
-    <div className="p-5  mx-auto justify-center gap-8 flex flex-wrap eventsPage bg-neutral-800 ">
-      {data.map((item) => (
-        <EventsCard
-          key={item.key}
-          Imgsrc={item.Imgsrc}
-          EventName={item.name}
-          link={item.link}
-          prize={item.prize}
-          visit={item.visit}
-          desc={item.desc}
-        />
-      ))}
+    <div className="eventspage">
+      <div className=" d-flex p-2 justify-content-evenly container align-items-center flex-wrap gap-3 mx-auto">
+        {data.map((item) => (
+          <EventsCard
+            key={item.key}
+            Imgsrc={item.Imgsrc}
+            EventName={item.name}
+            link={item.link}
+            prize={item.prize}
+            visit={item.visit}
+            desc={item.desc}
+          />
+        ))}
+      </div>
       {/* <a
         data-aos="fade-right"
         data-aos-easing="ease-in-sine"

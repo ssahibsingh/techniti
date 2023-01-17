@@ -1,0 +1,13 @@
+.section-header {
+    margin-top: calc(100vh- 80px); 
+    min-height: 90vh;
+    background: radial-gradient(at top left, #45F5A15E 0%, #00000000 25%);
+}
+
+.section-header .header-row, .header-column{
+    background: inherit !important;
+}
+
+.bg-inherit{
+    background: inherit !important;
+}

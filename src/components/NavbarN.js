@@ -50,7 +50,7 @@ const NavbarN = () => {
               </li>
             </ul>
           </div>
-          <div className="">
+          <div className="bg-inherit">
             <button
               className="btn btn-green px-4"
             >

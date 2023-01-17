@@ -137,6 +137,29 @@
   padding: 2rem;
 }
 
-.eventsPage {
+.eventspage {
   font-family: "Poppins", sans-serif;
+
+  background: radial-gradient(
+    at top left,
+    #45f5a15e 0%,
+    #00000000 25%
+  ) !important;
+  background: #000 !important;
+}
+
+.events-button {
+  background-color: #4ade80;
+  transition: all 0.3;
+}
+
+.events-button:hover,
+.events-button:focus,
+.events-button:active {
+  background: rgb(34, 195, 189) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(34, 195, 189, 1) 0%,
+    rgba(45, 253, 151, 1) 100%
+  ) !important;
 }

@@ -1,0 +1,20 @@
+.section-timeline {
+    padding: 30px 0;
+    min-height: 100vh;
+    /* background: ; */
+    background: url(https://demo.themovation.com/stratus/wp-content/uploads/2020/12/Shapes-1.svg) center, #fff;
+    padding: 50px 0;
+}
+.section-timeline .container{
+    background: rgb(0, 0, 0, 0) !important;
+}
+
+.timeline-content {
+    margin-top: 15vh;
+    background: rgb(0, 0, 0, 0);
+}
+
+.timeline-card-header {
+    background: rgb(0, 0, 0, 0) !important;
+    /* padding: 10px; */
+}

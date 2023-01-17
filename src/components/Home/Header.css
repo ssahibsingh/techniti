@@ -1,6 +1,6 @@
 .section-header {
-    margin-top: calc(100vh- 80px); 
-    min-height: 90vh;
+    padding-bottom: 20vh; 
+    min-height: 120vh;
     background: radial-gradient(at top left, #45F5A15E 0%, #00000000 25%);
 }
 

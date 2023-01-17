@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Poppins&display=swap");
 
+.bg-trans {
+  background: rgb(0, 0, 0, 0) !;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -19,62 +23,65 @@
   font-family: "Taviraj", serif;
   z-index: 10;
 }
-.navbar .container{
-  background: rgba(0, 0, 0, 0.0) !important;
+.navbar .container {
+  background: rgba(0, 0, 0, 0) !important;
 }
 
-.nav-link, .navbar-brand{
+.nav-link,
+.navbar-brand {
   color: #fff !important;
-  background: rgba(0, 0, 0, 0.0) !important;
+  background: rgba(0, 0, 0, 0) !important;
   font-family: "Josefin Sans", sans-serif;
 }
-.nav-item{
-  background: rgba(0, 0, 0, 0.0) !important;
+.nav-item {
+  background: rgba(0, 0, 0, 0) !important;
 }
-.nav-link{
+.nav-link {
   font-size: 18px;
   transition: all 0.3s ease-in-out;
 }
-.nav-link:hover{
+.nav-link:hover {
   transform: scale(1.05);
 }
 
-.navbar-collapse{
-  background: rgba(0, 0, 0, 0.0) !important;
+.navbar-collapse {
+  background: rgba(0, 0, 0, 0) !important;
 }
-.navbar-nav{
-  background: rgba(0, 0, 0, 0.0) !important;
-}
-
-
-.text-green{
-  color: #58F6AA;
+.navbar-nav {
+  background: rgba(0, 0, 0, 0) !important;
 }
 
-.btn-green{
-  background-color: #58F6AA;
+.text-green {
+  color: #58f6aa;
+}
+
+.btn-green {
+  background-color: #58f6aa;
   color: #000;
   border: none;
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
 }
-.btn-green:hover, .btn-green:focus, .btn-green:active{
-  background-color: #58F6AA;
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active {
+  background-color: #58f6aa;
   color: #000;
   transform: scale(1.05);
 }
-.btn-grey{
+.btn-grey {
   color: #fff;
-  border: solid 2px #FFFFFF2B;
+  border: solid 2px #ffffff2b;
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
 }
-.btn-grey:hover, .btn-grey:focus, .btn-grey:active{
+.btn-grey:hover,
+.btn-grey:focus,
+.btn-grey:active {
   background-color: #141414;
   color: #fff;
   transform: scale(1.05);
 }
-
 
 .homepage {
   background-color: #010001;
@@ -153,6 +160,8 @@
     #00000000 25%
   ) !important;
   background: #000 !important;
+
+  padding-top: 100px;
 }
 
 .events-button {
@@ -173,9 +182,20 @@
 
 .eventcard {
   background: rgb(45, 253, 151);
-  background: linear-gradient(
-    350deg,
-    rgba(45, 253, 151, 1) 2%,
-    rgba(32, 32, 32, 1) 95%
-  );
+  background: linear-gradient(180deg, #131a14 0%, #131a1400 100%);
+}
+.eventcard .card-title {
+  background: rgb(0, 0, 0, 0) !important;
+}
+
+.eventcard .card-body {
+  background: rgb(0, 0, 0, 0) !important;
+}
+
+.eventcard .eventbuttons {
+  background: rgb(0, 0, 0, 0) !important;
+}
+
+.eventcard .card-text {
+  background: rgb(0, 0, 0, 0) !important;
 }

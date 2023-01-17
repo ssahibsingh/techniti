@@ -8,7 +8,7 @@ const EventsCard = ({ Imgsrc, EventName, prize, link, desc, visit }) => {
 
       <div className="row">
         <div
-          className="card shadow  p-2 mb-5 bg-body rounded border-0 "
+          className="eventcard card shadow  p-2 mb-5 bg-body rounded border-0 "
           style={{ width: "21rem" }}
         >
           <h5 className="card-title text-uppercase  fw-bold fs-4 text-center">

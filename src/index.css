@@ -111,3 +111,12 @@
     rgba(45, 253, 151, 1) 100%
   ) !important;
 }
+
+.eventcard {
+  background: rgb(45, 253, 151);
+  background: linear-gradient(
+    350deg,
+    rgba(45, 253, 151, 1) 2%,
+    rgba(32, 32, 32, 1) 95%
+  );
+}

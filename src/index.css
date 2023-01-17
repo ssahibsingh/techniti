@@ -1,16 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Poppins&display=swap");
 
-.bg-trans {
-  background: rgb(0, 0, 0, 0) !;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   background: #000;
   color: #fff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
 }
 
 .navbar {
@@ -55,6 +72,15 @@
   color: #58f6aa;
 }
 
+.bg-trans {
+  background: rgb(0, 0, 0, 0) !important;
+}
+
+.bg-green {
+  background-color: #58f6aa !important;
+  color: #000;
+}
+
 .btn-green {
   background-color: #58f6aa;
   color: #000;
@@ -82,120 +108,35 @@
   color: #fff;
   transform: scale(1.05);
 }
-
-.homepage {
-  background-color: #010001;
-  height: 100vh;
+.btn-bdark {
+  color: #fff;
+  background: #000;
+  border: solid 2px #ffffff2b;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
 }
-.upper_home {
-  /* height: 100px; */
-}
-#background-video {
-  /* position: fixed; */
-  /* position: absolute; */
-  top: 0;
-  height: 750px;
-  z-index: -1;
-  width: 100%;
-  background-color: #010001;
+.btn-bdark:hover,
+.btn-bdark:focus,
+.btn-bdark:active {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.05);
 }
 
-@media (min-aspect-ratio: 16/9) {
-  #background-video {
-    /* width: 750px; */
-    height: auto;
-  }
-}
 
-@media (max-aspect-ratio: 16/9) {
-  #background-video {
-    width: auto;
-    height: 100%;
-  }
-}
-
-.techniti-text {
-  font-family: "Josefin Sans", sans-serif;
-  background: #e645cb;
-  background: linear-gradient(to right, #e645cb 16%, #ff1fa5 55%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.para-text {
-  font-family: "Poppins", sans-serif;
-}
-
-.textsection {
-  /* background: url("../files/banner.png");ba */
-  background-size: cover;
-  position: relative;
-  /* opacity: 0.8; */
-  /* background-color: #313131; */
-}
-
-.textsection::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.footer {
-  background-color: #010001;
-  color: white;
-  /* height: 18rem; */
-  padding: 2rem;
-}
 
 .eventspage {
-  font-family: "Poppins", sans-serif;
-
-  background: radial-gradient(
-    at top left,
-    #45f5a15e 0%,
-    #00000000 25%
-  ) !important;
-  background: #000 !important;
-
   padding-top: 100px;
-}
-
-.events-button {
-  background-color: #4ade80;
-  transition: all 0.3;
-}
-
-.events-button:hover,
-.events-button:focus,
-.events-button:active {
-  background: rgb(34, 195, 189) !important;
-  background: linear-gradient(
-    90deg,
-    rgba(34, 195, 189, 1) 0%,
-    rgba(45, 253, 151, 1) 100%
-  ) !important;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .eventcard {
-  background: rgb(45, 253, 151);
+  border-radius: 20px;
+  background: #58f6aa;
   background: linear-gradient(180deg, #131a14 0%, #131a1400 100%);
-}
-.eventcard .card-title {
-  background: rgb(0, 0, 0, 0) !important;
+  transition: all 0.3s ease-in-out;
 }
 
-.eventcard .card-body {
-  background: rgb(0, 0, 0, 0) !important;
-}
-
-.eventcard .eventbuttons {
-  background: rgb(0, 0, 0, 0) !important;
-}
-
-.eventcard .card-text {
-  background: rgb(0, 0, 0, 0) !important;
+.eventcard:hover{
+  box-shadow: 0px 0px 100px -25px rgba(88,246,170,0.53);
 }

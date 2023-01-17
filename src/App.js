@@ -19,6 +19,7 @@ import UAVDrone from "./Events/UAVDrone";
 import RCcars from "./Events/RCcars";
 import Robowar from "./Events/Robowar";
 import Avishkar from "./Events/Avishkar";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -44,6 +45,8 @@ function App() {
           <Route path="/robowar" element={<Robowar />} exact />
           <Route path="/avishkar" element={<Avishkar />} exact />
         </Routes>
+
+        <Footer />
       </Router>
     </>
   );

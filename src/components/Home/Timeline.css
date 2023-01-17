@@ -2,19 +2,153 @@
     padding: 30px 0;
     min-height: 100vh;
     /* background: ; */
-    background: url(https://demo.themovation.com/stratus/wp-content/uploads/2020/12/Shapes-1.svg) center, #fff;
+    background: url(https://demo.themovation.com/stratus/wp-content/uploads/2020/12/Shapes-1.svg) center, #000;
     padding: 50px 0;
 }
-.section-timeline .container{
+
+.section-timeline .container {
     background: rgb(0, 0, 0, 0) !important;
 }
 
-.timeline-content {
-    margin-top: 15vh;
-    background: rgb(0, 0, 0, 0);
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.timeline-card-header {
-    background: rgb(0, 0, 0, 0) !important;
-    /* padding: 10px; */
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #58f6aa;
+    top: 20px;
+    bottom: 161px;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* box around content */
+.box {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.box::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -12px;
+    background-color: #000;
+    border: 4px solid #fff;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the box to the left */
+.left {
+    left: 0;
+}
+
+/* Place the box to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left box (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #58f6aa;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #58f6aa1a;
+}
+
+/* Add arrows to the right box (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #58f6aa;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #58f6aa1a transparent transparent;
+}
+
+/* Fix the circle for boxs on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background: linear-gradient(180deg, #131A14 0%, #131A1400 100%);
+    position: relative;
+    border-radius: 6px;
+}
+
+.timeline-day-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* .timeline-day-list li::before {
+    content: "\2022";
+    color: #58f6aa;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+} */
+
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+
+    /* Full-width boxs */
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .box::before {
+        left: 60px;
+        border: medium solid #58f6aa;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #58f6aa1a transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    /* Make all right boxs behave like the left ones */
+    .right {
+        left: 0%;
+    }
 }

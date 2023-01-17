@@ -1,26 +1,74 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Poppins&display=swap");
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background: #000;
+  color: #fff;
 }
 
 .navbar {
-  /* background: rgb(132, 6, 50);
-  background: linear-gradient(
-    90deg,
-    rgba(132, 6, 50, 1) 0%,
-    rgba(250, 94, 249, 0.976890756302521) 60%
-  ); */
-  z-index: 5;
+  width: 100%;
+  position: fixed !important;
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(30px);
+  color: var(--black);
+  min-width: 50px;
+  font-family: "Taviraj", serif;
+  z-index: 10;
 }
+.navbar .container{
+  background: rgba(0, 0, 0, 0.0) !important;
+}
+
+.nav-link, .navbar-brand{
+  color: #fff !important;
+  background: rgba(0, 0, 0, 0.0) !important;
+  font-family: "Josefin Sans", sans-serif;
+}
+.nav-link{
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+.nav-link:hover{
+  transform: scale(1.05);
+}
+
+.navbar-collapse{
+  background: rgba(0, 0, 0, 0.0) !important;
+}
+
+.text-green{
+  color: #58F6AA;
+}
+
+.btn-green{
+  background-color: #58F6AA;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-green:hover, .btn-green:focus, .btn-green:active{
+  background-color: #58F6AA;
+  color: #000;
+  transform: scale(1.05);
+}
+.btn-grey{
+  color: #fff;
+  border: solid 2px #FFFFFF2B;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-grey:hover, .btn-grey:focus, .btn-grey:active{
+  background-color: #141414;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+
 .homepage {
   background-color: #010001;
   height: 100vh;

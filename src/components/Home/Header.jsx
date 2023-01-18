@@ -13,7 +13,7 @@ const Header = () => {
                     <p className="pt-3 text-green">THINK / COMPETE / INNOVATE</p>
                     <h1 className="display-1 fw-bold">TechNITi 2023</h1>
                   </div>
-                  <div className="my-5">
+                  <div className="my-5 d-flex gap-3">
                     <a href="#about">
                       <button
                         type="button"
@@ -23,12 +23,12 @@ const Header = () => {
                       </button>
                     </a>
                     <a href="#about">
-                      <button
+                      <p
                         type="button"
                         className="btn btn-lg btn-grey my-3 px-4 py-3"
                       >
-                        Explore More
-                      </button>
+                        Explore More <i class="fa-solid fa-arrow-right bg-trans"></i>
+                      </p>
                     </a>
                   </div>
                 </div>

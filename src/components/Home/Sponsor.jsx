@@ -4,7 +4,7 @@ const Sponsor = () => {
   return (
     <>
       <div className="section-sponsor1">
-        <div className="container bg-inherit py-5">
+        <div className="container bg-inherit py-4">
           <div className="row justify-content-center align-items-center my-5 p-5 bg-inherit">
             <div className="col-md-6 col-sm-12 col-12 bg-inherit">
                 <p className="text-dark fw-bold bg-inherit">THINK / COMPETE / INNOVATE</p>

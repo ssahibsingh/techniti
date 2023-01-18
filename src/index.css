@@ -123,8 +123,6 @@
   transform: scale(1.05);
 }
 
-
-
 .eventspage {
   padding-top: 100px;
   font-family: "Josefin Sans", sans-serif;
@@ -137,6 +135,19 @@
   transition: all 0.3s ease-in-out;
 }
 
-.eventcard:hover{
-  box-shadow: 0px 0px 100px -25px rgba(88,246,170,0.53);
+.eventcard:hover {
+  box-shadow: 0px 0px 100px -25px rgba(88, 246, 170, 0.53);
+}
+
+.aboutuspage {
+  color: #fff;
+  padding-top: 10rem !important;
+  padding-bottom: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  /* position: relative !important;
+  top: 10rem !important; */
+}
+
+.aboutuspage > .icon {
+  color: #58f6aa;
 }

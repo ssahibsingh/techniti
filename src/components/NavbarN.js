@@ -1,12 +1,12 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import logo from "../files/logo2.png";
+// import logo from "../files/logo2.png";
 
 const NavbarN = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg py-3" >
+      <nav className="navbar navbar-expand-lg py-3">
         <div className="container">
           <Link className="navbar-brand mx-3 mt-1" href="/">
             {/* <img src="/logop.webp" alt="Logo" width={155} height={40} /> */}
@@ -51,11 +51,7 @@ const NavbarN = () => {
             </ul>
           </div>
           <div className="bg-inherit">
-            <button
-              className="btn btn-green px-4"
-            >
-              Register
-            </button>
+            <button className="btn btn-green px-4">Register</button>
           </div>
         </div>
       </nav>

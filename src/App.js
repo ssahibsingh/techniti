@@ -21,6 +21,7 @@ import Robowar from "./Events/Robowar";
 import Avishkar from "./Events/Avishkar";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
+import Boltbolt from "./Events/Boltbolt";
 function App() {
   return (
     <>
@@ -32,7 +33,6 @@ function App() {
           <Route path="/" element={<Home />} exact />
           <Route path="/team" element={<OurTeam />} exact />
           <Route path="/about" element={<AboutUs />} exact />
-          {/* events */}
           <Route path="/chemedesign" element={<Chemical1 />} exact />
           <Route path="/chemecar" element={<Chemical2 />} exact />
           <Route path="/prayaas" element={<Prayaas />} exact />
@@ -45,8 +45,8 @@ function App() {
           <Route path="/rccars" element={<RCcars />} exact />
           <Route path="/robowar" element={<Robowar />} exact />
           <Route path="/avishkar" element={<Avishkar />} exact />
+          <Route path="/boltbolt" element={<Boltbolt />} exact />
         </Routes>
-
         <Footer />
       </Router>
     </>

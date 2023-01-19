@@ -31,23 +31,27 @@ function App() {
 
         <Routes>
           <Route path="/register" element={<Registration />} exact />
-          <Route path="/events" element={<Events />} exact />
+          <Route path="/event" element={<Events />} exact />
           <Route path="/" element={<Home />} exact />
           <Route path="/team" element={<OurTeam />} exact />
           <Route path="/about" element={<AboutUs />} exact />
-          <Route path="/chemedesign" element={<Chemical1 />} exact />
-          <Route path="/chemecar" element={<Chemical2 />} exact />
-          <Route path="/prayaas" element={<Prayaas />} exact />
-          <Route path="/maths" element={<Mathematics />} exact />
-          <Route path="/robohunt" element={<Robohunt />} exact />
-          <Route path="/microrobowar" element={<Microrobowar />} exact />
-          <Route path="/trickycircuits" element={<TrickyCircuits />} exact />
-          <Route path="/threebhk" element={<ThreeBHK />} exact />
-          <Route path="/uavdrone" element={<UAVDrone />} exact />
-          <Route path="/rccars" element={<RCcars />} exact />
-          <Route path="/robowar" element={<Robowar />} exact />
-          <Route path="/avishkar" element={<Avishkar />} exact />
-          <Route path="/boltbolt" element={<Boltbolt />} exact />
+          <Route path="/event/chemedesign" element={<Chemical1 />} exact />
+          <Route path="/event/chemecar" element={<Chemical2 />} exact />
+          <Route path="/event/prayaas" element={<Prayaas />} exact />
+          <Route path="/event/maths" element={<Mathematics />} exact />
+          <Route path="/event/robohunt" element={<Robohunt />} exact />
+          <Route path="/event/microrobowar" element={<Microrobowar />} exact />
+          <Route
+            path="/event/trickycircuits"
+            element={<TrickyCircuits />}
+            exact
+          />
+          <Route path="/event/threebhk" element={<ThreeBHK />} exact />
+          <Route path="/event/uavdrone" element={<UAVDrone />} exact />
+          <Route path="/event/rccars" element={<RCcars />} exact />
+          <Route path="/event/robowar" element={<Robowar />} exact />
+          <Route path="/event/avishkar" element={<Avishkar />} exact />
+          <Route path="/event/boltbolt" element={<Boltbolt />} exact />
         </Routes>
         <Footer />
       </Router>

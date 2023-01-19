@@ -29,24 +29,24 @@ const NavbarN = () => {
           >
             <ul className="navbar-nav mx-2 mb-2 mb-lg-0 text-center">
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/events">
+                <Link className="nav-link" to="/event">
                   Events
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/team">
+                <Link className="nav-link" to="/team">
                   Team
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

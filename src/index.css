@@ -139,7 +139,9 @@
   box-shadow: 0px 0px 100px -25px rgba(88, 246, 170, 0.53);
 }
 
-.aboutuspage {
+.aboutuspage,
+.registerpage,
+.singleevents {
   color: #fff;
   padding-top: 10rem !important;
   padding-bottom: 3rem;

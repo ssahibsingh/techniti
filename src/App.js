@@ -22,6 +22,7 @@ import Avishkar from "./Events/Avishkar";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
 import Boltbolt from "./Events/Boltbolt";
+import Registration from "./components/Registration";
 function App() {
   return (
     <>
@@ -29,6 +30,7 @@ function App() {
         <NavbarN />
 
         <Routes>
+          <Route path="/register" element={<Registration />} exact />
           <Route path="/events" element={<Events />} exact />
           <Route path="/" element={<Home />} exact />
           <Route path="/team" element={<OurTeam />} exact />

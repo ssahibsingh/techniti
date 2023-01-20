@@ -4,7 +4,7 @@ const Avishkar = () => {
   return (
     <div className="container">
       <div className="singlevents">
-        <div className="para-text flex justify-evenly p-5 gap-5 ">
+        <div className="para-text flex justify-evenly gap-5 ">
           <div>
             <h1 className="text-center text-3xl font-bold uppercase ">
               Exhibition by Team Avishkar

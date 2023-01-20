@@ -94,6 +94,7 @@
   background-color: #58f6aa;
   color: #000;
   transform: scale(1.05);
+  box-shadow: 0px 0px 100px -5px rgba(88, 246, 170, 0.53);
 }
 .btn-grey {
   color: #fff;
@@ -107,6 +108,7 @@
   background-color: #141414;
   color: #fff;
   transform: scale(1.05);
+  box-shadow: 0px 0px 100px -5px rgba(88, 246, 170, 0.53);
 }
 .btn-bdark {
   color: #fff;
@@ -121,6 +123,11 @@
   background-color: #000;
   color: #fff;
   transform: scale(1.05);
+  box-shadow: 0px 0px 100px -5px rgba(88, 246, 170, 0.53);
+}
+
+.page{
+  padding-top: 100px;
 }
 
 .eventspage {
@@ -139,17 +146,41 @@
   box-shadow: 0px 0px 100px -25px rgba(88, 246, 170, 0.53);
 }
 
+.aboutuspage > .icon {
+  color: #58f6aa;
+}
+
+.teampage,
 .aboutuspage,
 .registerpage,
 .singleevents {
   color: #fff;
-  padding-top: 10rem !important;
+  padding-top: 100px !important;
   padding-bottom: 3rem;
   font-family: "Josefin Sans", sans-serif;
-  /* position: relative !important;
-  top: 10rem !important; */
 }
 
-.aboutuspage > .icon {
-  color: #58f6aa;
+/* Team Page */
+.teamcard {
+  border-radius: 20px;
+  background: #58f6aa;
+  background: linear-gradient(180deg, #131a14 0%, #131a1400 100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.teamcard:hover {
+  box-shadow: 0px 0px 100px -25px rgba(88, 246, 170, 0.53);
+}
+
+/* .team-image{
+  overflow: hidden;
+} */
+
+.team-image img{
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  /* width: 200px;
+  height: 200px; */
+  /* width: 200px;
+  height: 200px; */
 }

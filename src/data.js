@@ -179,3 +179,38 @@ export const data = [
     desc: "Tricky Circuits is a competition where participants will be given circuits consisting of resistors, gates, and ...",
   },
 ];
+
+export const teamData = [
+  {
+    key: 1,
+    name: "XYZ",
+    role: "Faculty",
+    img: "https://picsum.photos/200/200",
+    linkedin: "https://www.linkedin.com",
+    insta: "https://www.instagram.com/",
+  },
+  {
+    key: 2,
+    name: "XYZ",
+    role: "",
+    img: "https://picsum.photos/200/200",
+    linkedin: "https://www.linkedin.com",
+    insta: "https://www.instagram.com/",
+  },
+  {
+    key: 3,
+    name: "XYZ",
+    role: "",
+    img: "https://picsum.photos/200/200",
+    linkedin: "https://www.linkedin.com",
+    insta: "https://www.instagram.com/",
+  },
+  {
+    key: 4,
+    name: "XYZ",
+    role: "",
+    img: "https://picsum.photos/200/200",
+    linkedin: "https://www.linkedin.com",
+    insta: "https://www.instagram.com/",
+  },
+]

@@ -13,41 +13,27 @@ const Header = () => {
                     <p className="pt-3 text-green">THINK / COMPETE / INNOVATE</p>
                     <h1 className="display-1 fw-bold">TechNITi 2023</h1>
                   </div>
-                  <div className="my-5 d-flex gap-3">
-                    <a href="#about">
+                  <div className="my-5 d-flex justify-content-center gap-3">
+                    <a href="#about" className="">
                       <button
                         type="button"
-                        className="btn btn-lg btn-green my-3 px-4 py-3"
+                        className="btn btn-lg btn-green my-3 px-4 py-1 w-100 h-100"
                       >
                         Register for Free
                       </button>
                     </a>
-                    <a href="#about">
-                      <p
+                    <a href="#about" className="">
+                      <button
                         type="button"
-                        className="btn btn-lg btn-grey my-3 px-4 py-3"
+                        className="btn btn-lg btn-grey my-3 px-4 py-1 w-100 h-100"
                       >
-                        Explore More <i class="fa-solid fa-arrow-right bg-trans"></i>
-                      </p>
+                        Explore More <i className="fa-solid fa-arrow-right bg-trans"></i>
+                      </button>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            {/* <div className="col-md-6 col-12 h-100"> */}
-            {/* <div className="">
-                <div className="text-center">
-                  <img
-                    className=""
-                    src="/images/main-svg.svg"
-                    alt=""
-                    width={332}
-                    height={400}
-                    priority
-                  />
-                </div>
-              </div> */}
-            {/* </div> */}
           </div>
         </div>
       </div>

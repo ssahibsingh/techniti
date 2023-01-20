@@ -4,10 +4,11 @@ import EventsCard from "./EventsCard";
 import { data } from "../data";
 
 const Events = ({ count }) => {
+  console.log(data)
   return (
     <div className="eventspage">
       <div className="container">
-        <h1 className="text-center text-uppercase fw-bold pt-4 pb-5">Events</h1>
+        <h1 className="text-center text-uppercase fw-bold pb-5">Events</h1>
         <div className="row">
           {data.map((item, index) => {
             if (count === undefined) {
@@ -36,6 +37,7 @@ const Events = ({ count }) => {
                 />
               )
             }
+            return null;
           }
           )}
         </div>

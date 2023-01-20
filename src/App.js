@@ -23,36 +23,38 @@ import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
 import Boltbolt from "./Events/Boltbolt";
 import Registration from "./components/Registration";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
       <Router>
         <NavbarN />
-
-        <Routes>
-          <Route path="/register" element={<Registration />} exact />
-          <Route path="/event" element={<Events />} exact />
-          <Route path="/" element={<Home />} exact />
-          <Route path="/team" element={<OurTeam />} exact />
-          <Route path="/about" element={<AboutUs />} exact />
-          <Route path="/event/chemedesign" element={<Chemical1 />} exact />
-          <Route path="/event/chemecar" element={<Chemical2 />} exact />
-          <Route path="/event/prayaas" element={<Prayaas />} exact />
-          <Route path="/event/maths" element={<Mathematics />} exact />
-          <Route path="/event/robohunt" element={<Robohunt />} exact />
-          <Route path="/event/microrobowar" element={<Microrobowar />} exact />
-          <Route
-            path="/event/trickycircuits"
-            element={<TrickyCircuits />}
-            exact
-          />
-          <Route path="/event/threebhk" element={<ThreeBHK />} exact />
-          <Route path="/event/uavdrone" element={<UAVDrone />} exact />
-          <Route path="/event/rccars" element={<RCcars />} exact />
-          <Route path="/event/robowar" element={<Robowar />} exact />
-          <Route path="/event/avishkar" element={<Avishkar />} exact />
-          <Route path="/event/boltbolt" element={<Boltbolt />} exact />
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Home />} exact />
+            <Route path="/register" element={<Registration />} exact />
+            <Route path="/event" element={<Events />} exact />
+            <Route path="/team" element={<OurTeam />} exact />
+            <Route path="/about" element={<AboutUs />} exact />
+            <Route path="/event/chemedesign" element={<Chemical1 />} exact />
+            <Route path="/event/chemecar" element={<Chemical2 />} exact />
+            <Route path="/event/prayaas" element={<Prayaas />} exact />
+            <Route path="/event/maths" element={<Mathematics />} exact />
+            <Route path="/event/robohunt" element={<Robohunt />} exact />
+            <Route path="/event/microrobowar" element={<Microrobowar />} exact />
+            <Route
+              path="/event/trickycircuits"
+              element={<TrickyCircuits />}
+              exact
+            />
+            <Route path="/event/threebhk" element={<ThreeBHK />} exact />
+            <Route path="/event/uavdrone" element={<UAVDrone />} exact />
+            <Route path="/event/rccars" element={<RCcars />} exact />
+            <Route path="/event/robowar" element={<Robowar />} exact />
+            <Route path="/event/avishkar" element={<Avishkar />} exact />
+            <Route path="/event/boltbolt" element={<Boltbolt />} exact />
+          </Routes>
+        </ScrollToTop>
         <Footer />
       </Router>
     </>

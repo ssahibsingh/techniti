@@ -1,4 +1,5 @@
 import React from "react";
+import { FiInstagram, FiLinkedin, FiFacebook } from "react-icons/fi";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -7,15 +8,34 @@ const Footer = () => {
       <div className="footer">
         <div className="container my-3">
           <div className="row d-flex justify-content-between">
-            <p className="col-md-6 col-12">
+            <p className="col-md-4 col-sm-12 col-12 text-center">
               Copyright &copy; {year} TechNITi, NIT Jalandhar
             </p>
-            <p className="col-md-6 col-12 text-end">
+            <div className="col-md-4 col-sm-12 col-12 text-center">
+              <ul className="list-unstyled d-flex justify-content-center align-items-center gap-3">
+                <li className="">
+                  <a href="https://github.com" target="_blank" rel="noreferrer">
+                    <FiInstagram />
+                  </a>
+                </li>
+                <li className="">
+                  <a href="https://github.com" target="_blank" rel="noreferrer">
+                    <FiLinkedin />
+                  </a>
+                </li>
+                <li className="">
+                  <a href="https://github.com" target="_blank" rel="noreferrer">
+                    <FiFacebook />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <p className="col-md-4 col-sm-12 col-12 text-center">
               Developed with ❣️ By{" "}
               <a
                 href="https://github.com/ssahibsingh"
                 target="_blank"
-                rel="noreferer"
+                rel="noreferrer"
                 className="text-green"
               >
                 Sahib Singh
@@ -24,7 +44,7 @@ const Footer = () => {
               <a
                 href="https://github.com/Nitesh2905"
                 target="_blank"
-                rel="noreferer"
+                rel="noreferrer"
                 className="text-green"
               >
                 Nitesh Yadav

@@ -26,11 +26,13 @@ const EventsCard = ({ Imgsrc, EventName, prize, link, desc, visit }) => {
                       Register Now
                     </button>
                   </a>
-                  <a href={visit}>
+                  <Link to={visit} onClick={()=>{
+                    window.scrollTo(0,0);
+                  }}>
                     <button className="btn btn-grey mx-2 w-75 rounded">
                       Know More
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

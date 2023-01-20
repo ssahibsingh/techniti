@@ -13,7 +13,7 @@ const EventsCard = ({ Imgsrc, EventName, prize, link, desc, visit }) => {
               className="card-img-top rounded"
               alt={EventName}
             />
-            <h5 className="card-title text-uppercase fw-bold fs-4 text-center mt-4 bg-inherit">
+            <h5 className="card-title text-uppercase fw-bold fs-4 text-center mt-4 bg-trans">
               {EventName}
             </h5>
             <div className="card-body bg-trans">

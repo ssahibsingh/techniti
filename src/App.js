@@ -24,6 +24,7 @@ import AboutUs from "./components/AboutUs";
 import Boltbolt from "./Events/Boltbolt";
 import Registration from "./components/Registration";
 import ScrollToTop from "./components/ScrollToTop";
+import FashionShow from "./Events/FashionShow";
 function App() {
   return (
     <>
@@ -36,12 +37,17 @@ function App() {
             <Route path="/event" element={<Events />} exact />
             <Route path="/team" element={<OurTeam />} exact />
             <Route path="/about" element={<AboutUs />} exact />
+            <Route path="/event/fashionshow" element={<FashionShow />} exact />
             <Route path="/event/chemedesign" element={<Chemical1 />} exact />
             <Route path="/event/chemecar" element={<Chemical2 />} exact />
             <Route path="/event/prayaas" element={<Prayaas />} exact />
             <Route path="/event/maths" element={<Mathematics />} exact />
             <Route path="/event/robohunt" element={<Robohunt />} exact />
-            <Route path="/event/microrobowar" element={<Microrobowar />} exact />
+            <Route
+              path="/event/microrobowar"
+              element={<Microrobowar />}
+              exact
+            />
             <Route
               path="/event/trickycircuits"
               element={<TrickyCircuits />}

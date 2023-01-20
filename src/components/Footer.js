@@ -12,14 +12,22 @@ const Footer = () => {
               Copyright &copy; {year} TechNITi, NIT Jalandhar
             </p>
             <div className="col-md-4 col-sm-12 col-12 text-center">
-              <ul className="list-unstyled d-flex justify-content-center align-items-center gap-3">
+              <ul className="list-unstyled d-flex  justify-content-center align-items-center gap-3 home-icons">
                 <li className="">
-                  <a href="https://github.com" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.instagram.com/techniti_nitj/?igshid=YmMyMTA2M2Y="
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <FiInstagram />
                   </a>
                 </li>
                 <li className="">
-                  <a href="https://github.com" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.linkedin.com/in/technitij2k23/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <FiLinkedin />
                   </a>
                 </li>
@@ -39,8 +47,8 @@ const Footer = () => {
                 className="text-green"
               >
                 Sahib Singh
-              </a>{" "}
-              &{" "}
+              </a>
+              &
               <a
                 href="https://github.com/Nitesh2905"
                 target="_blank"

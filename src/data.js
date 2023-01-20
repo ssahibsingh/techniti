@@ -6,16 +6,16 @@ export const data = [
     Imgsrc: require("./files/hackathon.webp"),
     link: "https://www.nitj.ac.in/events_registration/hackmol/login",
     visit: "https://hackmol.tech/",
-    desc: "HackMOL is the flagship annual 30-hour hackathon being organised by GDSC...",
+    desc: "HackMOL is the flagship annual 30-hour hackathon being organised by GDSC of NIT Jalandhar...",
   },
   {
     key: 2,
     name: "Fashion Show",
-    prize: "",
+    prize: 30000,
     Imgsrc: require("./files/fashion.webp"),
     link: "register",
-    visit: "fashionshow",
-    desc: "A race which consists of 5 hurdles which helps to check the presence of mind of participants....",
+    visit: "event/fashionshow",
+    desc: "Fashion show organised by NITJ is one of the most awaited and celebrated events of TECHNITI every year ....",
   },
   {
     key: 3,
@@ -23,7 +23,7 @@ export const data = [
     prize: "80000",
     Imgsrc: require("./files/robowars.webp"),
     link: "register",
-    visit: "robowar",
+    visit: "event/robowar",
     desc: "It will be a savage, Clash of Metals with the alloys grinding red hot. It is a game of style,   ...",
   },
   {
@@ -213,4 +213,4 @@ export const teamData = [
     linkedin: "https://www.linkedin.com",
     insta: "https://www.instagram.com/",
   },
-]
+];

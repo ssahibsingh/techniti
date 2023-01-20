@@ -186,17 +186,13 @@
   height: 200px; */
 }
 
-.home-icons {
-  font-size: 1.25rem;
+.fashion-carousel {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.carouselcss {
-  width: 25rem;
-  margin: auto;
-}
-
-@media (min-width: 720px) {
-  .carouselcss {
-    width: 40rem;
+@media screen and (max-width: 768px) {
+  .fashion-carousel {
+    width: 100%;
   }
 }

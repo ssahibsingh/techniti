@@ -3,7 +3,7 @@ import React from "react";
 const Avishkar = () => {
   return (
     <div className="container">
-      <div className="singlevents">
+      <div className="singleevents">
         <div className="para-text flex justify-evenly gap-5 ">
           <div>
             <h1 className="text-center text-3xl font-bold uppercase ">

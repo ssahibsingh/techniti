@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const EventsCard = ({ Imgsrc, EventName, prize, link, desc, visit }) => {
   return (
     <>
-      <div className="col-md-4 col-sm-6 col-12 ">
+      <div className="col-md-4 col-sm-6 col-12">
         <div className="p-2">
           <div className="eventcard card mb-5 border-0 p-4">
             <img
@@ -19,7 +19,7 @@ const EventsCard = ({ Imgsrc, EventName, prize, link, desc, visit }) => {
             <div className="card-body bg-trans">
               <p className="card-text bg-trans">{desc}</p>
               <div className="text-center">
-                <p className="fw-bold text-green">Prizes: &#8377; {prize}</p>
+                <p className="fw-bold text-green">Prizes: {prize}</p>
                 <div className="d-flex flex-column gap-2">
                   <a href={link}>
                     <button className="btn btn-green mx-2 w-75 rounded">

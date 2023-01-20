@@ -14,7 +14,7 @@ export const data = [
     prize: "",
     Imgsrc: require("./files/fashion.webp"),
     link: "register",
-    visit: "event/fashionshow",
+    visit: "fashionshow",
     desc: "A race which consists of 5 hurdles which helps to check the presence of mind of participants....",
   },
   {
@@ -23,7 +23,7 @@ export const data = [
     prize: "80000",
     Imgsrc: require("./files/robowars.webp"),
     link: "register",
-    visit: "event/robowar",
+    visit: "robowar",
     desc: "It will be a savage, Clash of Metals with the alloys grinding red hot. It is a game of style,   ...",
   },
   {
@@ -32,7 +32,7 @@ export const data = [
     prize: 35000,
     Imgsrc: require("./files/UAVdrone.webp"),
     link: "",
-    visit: "event/uavdrone",
+    visit: "uavdrone",
     desc: "Drones are objects that the world is looking up to. TechNITi'23 presents the UAV Drone challange, A multi-level ...",
   },
   {
@@ -40,7 +40,7 @@ export const data = [
     name: "gaNIT",
     prize: 5500,
     Imgsrc: require("./files/maths.webp"),
-    visit: "event/maths",
+    visit: "maths",
     desc: "The Integration Bee is an annual traditional playoff-style event that has gained popularity in US colleges and universities...",
   },
   {
@@ -49,7 +49,7 @@ export const data = [
     prize: 3000,
     Imgsrc: require("./files/robohunt.webp"),
     link: "",
-    visit: "event/robohunt",
+    visit: "robohunt",
     desc: "Robo Hunt is a competition where teams will write the code of controller of small robots, known as bots, that are less than 6 kg...",
   },
   {
@@ -58,7 +58,7 @@ export const data = [
     prize: 8000,
     Imgsrc: require("./files/microrobowar.webp"),
     link: "",
-    visit: "event/microrobowar",
+    visit: "microrobowar",
     desc: "Micro Robo War is a robot fighting competition where contestant teams will compete head-to-head in a 1 vs 1 match...",
   },
 
@@ -68,7 +68,7 @@ export const data = [
     prize: 10000,
     Imgsrc: require("./files/chemecar.webp"),
     regvisit: "https://l01vlmq5gan.typeform.com/to/zGwKjZLG",
-    visit: "event/chemecar",
+    visit: "chemecar",
     desc: "Chem-e-Car engages college students in designing and constructing a car powered by a chemical energy...",
   },
   {
@@ -76,7 +76,7 @@ export const data = [
     name: "3BHK",
     prize: "Momentos & Goodies",
     Imgsrc: require("./files/3bhk.webp"),
-    visit: "event/threebhk",
+    visit: "threebhk",
     desc: "The Aim of the event is to teach the students about the practical application of building construction...",
   },
   {
@@ -85,7 +85,7 @@ export const data = [
     prize: 3000,
     Imgsrc: require("./files/prayaas.webp"),
     link: "",
-    visit: "event/prayaas",
+    visit: "prayaas",
     desc: "To educate underprivileged and socially marginalized youth who lack access to education, especially those who are the...",
   },
   {
@@ -94,7 +94,7 @@ export const data = [
     prize: 10000,
     Imgsrc: require("./files/chemedesign.webp"),
     link: "",
-    visit: "event/chemedesign",
+    visit: "chemedesign",
     desc: "The event will be organised in two parts Designing the heat exchanger  Presenting the technical ...",
   },
   {
@@ -103,7 +103,7 @@ export const data = [
     prize: "",
     Imgsrc: require("./files/rccar.webp"),
     link: "",
-    visit: "event/rccars",
+    visit: "rccars",
     desc: "RC car event, a fight of machines and a test of endurance, persistence and strength of the car. There will be a ...",
   },
   {
@@ -112,7 +112,7 @@ export const data = [
     prize: "",
     Imgsrc: require("./files/hackathon.webp"),
     link: "",
-    visit: "event/avishkar",
+    visit: "avishkar",
     desc: "Our self-manufactured ATV is exhibited in fully running condition and workshop would be commanded by various...",
   },
   {
@@ -139,7 +139,7 @@ export const data = [
     prize: 10500,
     Imgsrc: require("./files/lumentrace.webp"),
     link: "",
-    visit: "event/lumenTrace",
+    visit: "lumenTrace",
     desc: "",
   },
   {
@@ -148,7 +148,7 @@ export const data = [
     prize: 10500,
     Imgsrc: require("./files/smarttank.webp"),
     link: "",
-    visit: "event/smarttank",
+    visit: "smarttank",
     desc: "",
   },
   {
@@ -157,7 +157,7 @@ export const data = [
     prize: 5000,
     Imgsrc: require("./files/smarttank.webp"),
     link: "",
-    visit: "event/smarttank",
+    visit: "smarttank",
     desc: "In this event, the participant will be given a chemical engineering problem which needs to be solved using...",
   },
   {
@@ -166,7 +166,7 @@ export const data = [
     prize: "Momentos+",
     Imgsrc: require("./files/smarttank.webp"),
     link: "",
-    visit: "event/smarttank",
+    visit: "smarttank",
     desc: "A race which consists of 5 hurdles which helps to check the presence of mind of participants....",
   },
   {
@@ -175,7 +175,7 @@ export const data = [
     prize: 5000,
     Imgsrc: require("./files/trickycircuits.webp"),
     link: "",
-    visit: "event/trickycircuits",
+    visit: "trickycircuits",
     desc: "Tricky Circuits is a competition where participants will be given circuits consisting of resistors, gates, and ...",
   },
 ];

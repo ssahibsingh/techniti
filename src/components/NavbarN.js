@@ -8,7 +8,7 @@ const NavbarN = () => {
     <>
       <nav className="navbar navbar-expand-lg py-3">
         <div className="container">
-          <Link className="navbar-brand mx-3 mt-1" href="/">
+          <Link className="navbar-brand mx-3 mt-1" to="/">
             {/* <img src="/logop.webp" alt="Logo" width={155} height={40} /> */}
             TechNITi
           </Link>

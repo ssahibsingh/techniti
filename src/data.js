@@ -112,7 +112,7 @@ export const data = [
     key: 13,
     name: "atv Racing",
     prize: "",
-    Imgsrc: require("./files/hackathon.webp"),
+    Imgsrc: require("./files/atv.webp"),
     link: "register",
     visit: "avishkar",
     desc: "Our self-manufactured ATV is exhibited in fully running condition and workshop would be commanded by various...",

@@ -13,7 +13,7 @@ const NavbarN = () => {
             TechNITi
           </Link>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -21,7 +21,10 @@ const NavbarN = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            {/* <span className="navbar-toggler-icon"></span> */}
+            <span className="toggler-icon top-bar"></span>
+            <span className="toggler-icon middle-bar"></span>
+            <span className="toggler-icon bottom-bar"></span>
           </button>
           <div
             className="collapse navbar-collapse justify-content-end"
@@ -30,28 +33,50 @@ const NavbarN = () => {
             <ul className="navbar-nav mx-2 mb-2 mb-lg-0 text-center">
               <li className="nav-item">
                 <Link className="nav-link" to="/">
-                  Home
+                  <span
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                  >
+                    Home
+                  </span>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
-                  About
+                  <span
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                  >
+                    About
+                  </span>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/event">
-                  Events
+                  <span
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                  >
+                    Events
+                  </span>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/team">
-                  Team
+                  <span
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                  >
+                    Team
+                  </span>
                 </Link>
               </li>
             </ul>
           </div>
-          <div className="bg-inherit">
-            <button className="btn btn-green px-4">Register</button>
+          <div className="bg-inherit register-button">
+            <Link to="/event" className="btn btn-green px-4">
+              Register
+            </Link>
           </div>
         </div>
       </nav>

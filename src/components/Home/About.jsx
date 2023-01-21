@@ -3,10 +3,10 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <div className="section-about">
+      <div className="section-about" id="about">
         <div className="container">
           <div className="text-center bg-inherit">
-            <h2 className="fs-1 bg-inherit">About</h2>
+            <h1 className="bg-inherit display-5 fw-bold text-uppercase">About</h1>
             <p className="text-green bg-inherit">What is TechNITi ?</p>
           </div>
           <div className="row justify-content-center">

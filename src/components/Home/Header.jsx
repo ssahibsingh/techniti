@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   return (
@@ -14,14 +15,14 @@ const Header = () => {
                     <h1 className="display-1 fw-bold">TechNITi 2023</h1>
                   </div>
                   <div className="my-5 d-flex justify-content-center gap-3">
-                    <a href="#about" className="">
+                    <Link to="/event" className="">
                       <button
                         type="button"
                         className="btn btn-lg btn-green my-3 px-4 py-1 w-100 h-100"
                       >
                         Register for Free
                       </button>
-                    </a>
+                    </Link>
                     <a href="#about" className="">
                       <button
                         type="button"

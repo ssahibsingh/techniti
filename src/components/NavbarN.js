@@ -32,8 +32,15 @@ const NavbarN = () => {
           >
             <ul className="navbar-nav mx-2 mb-2 mb-lg-0 text-center">
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link
+                  className="nav-link"
+                  to="/"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                >
                   <span
+                    className="bg-trans"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
                   >
@@ -42,8 +49,15 @@ const NavbarN = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">
+                <Link
+                  className="nav-link"
+                  to="/about"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                >
                   <span
+                    className="bg-trans"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
                   >
@@ -52,8 +66,15 @@ const NavbarN = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/event">
+                <Link
+                  className="nav-link"
+                  to="/event"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                >
                   <span
+                    className="bg-trans"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
                   >
@@ -62,8 +83,15 @@ const NavbarN = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/team">
+                <Link
+                  className="nav-link"
+                  to="/team"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                >
                   <span
+                    className="bg-trans"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
                   >

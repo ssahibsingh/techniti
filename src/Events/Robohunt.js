@@ -4,9 +4,9 @@ const Robohunt = () => {
   return (
     <div className="container">
       <div className="singleevents">
-        <div className="para-text flex justify-evenly p-5 gap-5 ">
+        <div className="para-text flex justify-evenly p-2 gap-5 ">
           <div>
-            <h1 className="text-center text-3xl font-bold uppercase ">
+            <h1 className="text-center text-3xl font-bold text-uppercase ">
               robohunt
             </h1>
 

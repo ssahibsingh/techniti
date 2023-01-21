@@ -1,5 +1,5 @@
 import React from "react";
-
+import uavdrone from "../files/pdf/uavdrone.pdf";
 const UAVDrone = () => {
   return (
     <div className="container">
@@ -13,7 +13,7 @@ const UAVDrone = () => {
             <img />
           </div>
 
-          <div className="px-4">
+          <div className="px-2">
             <div>
               <h4 className="text-2xl font-semibold ">Event Description</h4>
               <p className="leading-7">
@@ -26,6 +26,16 @@ const UAVDrone = () => {
                 enjoyment.
               </p>
             </div>
+          </div>
+          <p className="text-center mt-5">
+            For more Information Download the Brouchure!
+          </p>
+          <div className="d-flex justify-content-center mt-5">
+            <a href={uavdrone} target="_blank">
+              <button className="btn btn-green mx-auto w-125 rounded">
+                Download Brochure
+              </button>
+            </a>
           </div>
         </div>
       </div>

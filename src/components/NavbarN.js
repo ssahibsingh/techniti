@@ -42,7 +42,7 @@ const NavbarN = () => {
                   <span
                     className="bg-trans"
                     data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
+                    data-bs-target="#navbarSupportedContent "
                   >
                     Home
                   </span>

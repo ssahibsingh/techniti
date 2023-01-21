@@ -52,7 +52,7 @@ const Footer = () => {
               >
                 Sahib Singh
               </a>
-              &
+              {" "}& {" "}
               <a
                 href="https://github.com/Nitesh2905"
                 target="_blank"

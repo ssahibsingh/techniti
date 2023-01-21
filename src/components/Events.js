@@ -4,7 +4,6 @@ import EventsCard from "./EventsCard";
 import { data } from "../data";
 
 const Events = ({ count }) => {
-  console.log(data)
   return (
     <div className="eventspage">
       <div className="container">

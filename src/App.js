@@ -30,6 +30,7 @@ import {
   TrickyCircuits,
   UAVDrone,
 } from "./Events";
+import Nityaan from "./Events/Nityaan";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} exact />
             <Route path="/register" element={<Registration />} exact />
+            <Route path="/event/nityaan" element={<Nityaan />} exact />
             <Route path="/event" element={<Events />} exact />
             <Route path="/team" element={<OurTeam />} exact />
             <Route path="/about" element={<AboutUs />} exact />

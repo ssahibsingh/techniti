@@ -20,7 +20,7 @@ export const data = [
   {
     key: 3,
     name: "NITYaan",
-    prize: "Goodies+",
+    prize: "declare soon",
     Imgsrc: require("./files/nityaan.webp"),
     link: "register",
     visit: "event/nityaan",

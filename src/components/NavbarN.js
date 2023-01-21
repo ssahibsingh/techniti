@@ -30,18 +30,18 @@ const NavbarN = () => {
             className="collapse navbar-collapse justify-content-end"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav mx-2 mb-2 mb-lg-0 text-center">
-              <li className="nav-item">
-                <Link className="nav-link" to="/">
+            <ul className="navbar-nav mx-2 mb-2 mb-lg-0 text-center ">
+              <li className="nav-item ">
+                <Link className="nav-link " to="/">
                   <span
                     data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
+                    data-bs-target="#navbarSupportedContent "
                   >
                     Home
                   </span>
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ">
                 <Link className="nav-link" to="/about">
                   <span
                     data-bs-toggle="collapse"

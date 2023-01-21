@@ -1,5 +1,5 @@
 import React from "react";
-import { FiInstagram, FiLinkedin, FiFacebook } from "react-icons/fi";
+import { FiInstagram, FiLinkedin, FiMail } from "react-icons/fi";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -32,8 +32,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="">
-                  <a href="https://github.com" target="_blank" rel="noreferrer">
-                    <FiFacebook />
+                  <a
+                    href="mailto:technitij@nitj.ac.in"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FiMail />
                   </a>
                 </li>
               </ul>

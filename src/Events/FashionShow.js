@@ -10,7 +10,7 @@ const FashionShow = () => {
           <div className="para-text flex justify-evenly px-5 gap-5 ">
             <div>
               <h1 className="text-center text-3xl font-bold uppercase ">
-                Fashion Show
+                FASHIONOVA : All India Fashion Show Contest
               </h1>
               <Carousel
                 infiniteLoop={true}

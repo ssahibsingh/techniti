@@ -13,7 +13,7 @@ export const data = [
     name: "Fashion Show",
     prize: "₹ 30000",
     Imgsrc: require("./files/fashion.webp"),
-    link: "register",
+    link: "https://forms.gle/1yoLPcBeK3oidNxC9",
     visit: "event/fashionshow",
     desc: "A race which consists of 5 hurdles which helps to check the presence of mind of participants....",
   },
@@ -40,7 +40,7 @@ export const data = [
     name: "gaNIT",
     prize: "₹ 5500",
     Imgsrc: require("./files/maths.webp"),
-    visit: "integratio-bee",
+    visit: "event/integrationbee",
     desc: "The Integration Bee is an annual traditional playoff-style event that has gained popularity in US colleges and universities...",
   },
   {

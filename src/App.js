@@ -60,7 +60,7 @@ function App() {
             <Route path="/event/fashionshow" element={<FashionShow />} exact />
             <Route path="/event/hackmol" element={<Hackmol />} exact />
             <Route
-              path="/event/integratio-bee"
+              path="/event/integrationbee"
               element={<IntegrationBee />}
               exact
             />

@@ -82,7 +82,7 @@ const NavbarN = () => {
                   </span>
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link"
                   to="/team"
@@ -98,7 +98,7 @@ const NavbarN = () => {
                     Team
                   </span>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="bg-inherit register-button">

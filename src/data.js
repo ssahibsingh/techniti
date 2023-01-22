@@ -2,10 +2,10 @@ export const data = [
   {
     key: 1,
     name: "2-day Workshops",
-    prize: "Certificates/Goodies",
+    prize: "Internships & Certificates",
     Imgsrc: require("./files/workshop.webp"),
-    link: "",
-    visit: "",
+    link: "https://forms.gle/k5BuoSoYThWQUXmWA",
+    visit: "event/workshop",
     desc: "In hand practical Workshops on Ethical Hacking and Blockhain, get an intern oppurtunity with startup...",
   },
   {

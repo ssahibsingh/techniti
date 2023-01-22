@@ -1,6 +1,6 @@
 import React from "react";
 
-const ThreeBHK = () => {
+const Squadoftheyear = () => {
   return (
     <div className="container">
       <div className="singleevents">
@@ -91,4 +91,4 @@ const ThreeBHK = () => {
   );
 };
 
-export default ThreeBHK;
+export default Squadoftheyear;

@@ -41,6 +41,10 @@
   font-family: "Taviraj", serif;
   z-index: 10;
 }
+
+a {
+  text-decoration: none;
+}
 .navbar .container {
   background: rgba(0, 0, 0, 0) !important;
 }
@@ -70,7 +74,7 @@
 }
 
 @media screen and (max-width: 992px) {
-  .register-button{
+  .register-button {
     display: none;
   }
 }
@@ -149,8 +153,6 @@
 .navbar-toggler.collapsed .toggler-icon {
   background: #58f6aa;
 }
-
-
 
 /* Utilities */
 .text-green {
@@ -281,6 +283,10 @@
 @media screen and (max-width: 768px) {
   .fashion-carousel {
     width: 100%;
+  }
+
+  .image-size {
+    /* width: 10rem !important; */
   }
 }
 

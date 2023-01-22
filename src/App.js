@@ -31,6 +31,8 @@ import {
   UAVDrone,
 } from "./Events";
 import Nityaan from "./Events/Nityaan";
+import Squadoftheyear from "./Events/Squadoftheyear";
+import Workshop from "./Events/Workshop";
 
 function App() {
   return (
@@ -42,6 +44,7 @@ function App() {
             <Route path="/" element={<Home />} exact />
             <Route path="/register" element={<Registration />} exact />
             <Route path="/event/nityaan" element={<Nityaan />} exact />
+            <Route path="/event/workshop" element={<Workshop />} exact />
             <Route path="/event" element={<Events />} exact />
             <Route path="/team" element={<OurTeam />} exact />
             <Route path="/about" element={<AboutUs />} exact />
@@ -80,7 +83,11 @@ function App() {
               element={<TrickyCircuits />}
               exact
             />
-            <Route path="/event/threebhk" element={<ThreeBHK />} exact />
+            <Route
+              path="/event/squadoftheyear"
+              element={<Squadoftheyear />}
+              exact
+            />
             <Route path="/event/uavdrone" element={<UAVDrone />} exact />
           </Routes>
         </ScrollToTop>

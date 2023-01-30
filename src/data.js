@@ -66,7 +66,7 @@ export const data = [
   {
     key: 8,
     name: "chem-e-car",
-    prize: "₹ 10000",
+    prize: "10000",
     Imgsrc: require("./files/chemecar.webp"),
     link: "register",
     visit: "event/chem-e-car",
@@ -84,7 +84,7 @@ export const data = [
   {
     key: 10,
     name: "prayaas",
-    prize: "₹ 3000",
+    prize: "3000",
     Imgsrc: require("./files/prayaas.webp"),
     link: "register",
     visit: "event/prayaas",
@@ -93,7 +93,7 @@ export const data = [
   {
     key: 11,
     name: "chem-e-design",
-    prize: "₹ 10000",
+    prize: "10000",
     Imgsrc: require("./files/chemedesign.webp"),
     link: "register",
     visit: "event/chem-e-design",
@@ -120,7 +120,7 @@ export const data = [
   {
     key: 14,
     name: "CHEM-E-HUNT",
-    prize: "₹ 5000",
+    prize: "5000",
     Imgsrc: require("./files/bestfromwaste.webp"),
     link: "register",
     visit: "event/chem-e-hunt",
@@ -129,7 +129,7 @@ export const data = [
   {
     key: 15,
     name: "bolt-bolt",
-    prize: "₹",
+    prize: "",
     Imgsrc: require("./files/boltbolt.webp"),
     link: "register",
     visit: "event/bolt-bolt",
@@ -138,7 +138,7 @@ export const data = [
   {
     key: 16,
     name: "lumen trace",
-    prize: "₹ 4500",
+    prize: "4500",
     Imgsrc: require("./files/lumentrace.webp"),
     link: "register",
     visit: "event/lumen-trace",
@@ -147,7 +147,7 @@ export const data = [
   {
     key: 17,
     name: "smart tank",
-    prize: "₹ 4500",
+    prize: "4500",
     Imgsrc: require("./files/smarttank.webp"),
     link: "register",
     visit: "event/smart-tank",
@@ -156,7 +156,7 @@ export const data = [
   {
     key: 18,
     name: "CHEM-E-CODE",
-    prize: "₹ 5000",
+    prize: "5000",
     Imgsrc: require("./files/smarttank.webp"),
     link: "register",
     visit: "event/chem-e-code",
@@ -192,7 +192,7 @@ export const data = [
   {
     key: 22,
     name: "robohunt",
-    prize: "₹ ",
+    prize: "",
     Imgsrc: require("./files/robohunt.webp"),
     link: "",
     visit: "event/robohunt",

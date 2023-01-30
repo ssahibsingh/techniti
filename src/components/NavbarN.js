@@ -101,11 +101,11 @@ const NavbarN = () => {
               </li> */}
             </ul>
           </div>
-          <div className="bg-inherit register-button">
+          {/* <div className="bg-inherit register-button">
             <Link to="/event" className="btn btn-green px-4">
               Register
             </Link>
-          </div>
+          </div> */}
         </div>
       </nav>
     </>

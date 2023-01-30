@@ -12,13 +12,7 @@ const About = () => {
           <div className="row justify-content-center">
             <div className="about-content my-5">
               <p>
-                TechNITI is a one of its kind event that goes far beyond just
-                being an event. It is celebration of colors of innovation and
-                management and aims to foster the entrepreneurial spirit and
-                motivate the engineeers among us. TechNITI is an expression of
-                excellence, a platform that aims to be the steppingstone for
-                innovative ideas to turn them into an opportunity to
-                revolutionize the world.
+              TechNITI is a one of its kind event that goes far beyond just being an event. It is a celebration of colors of innovation and management and aims to foster the entrepreneurial spirit and motivate the engineers among us. TechNITI is an expression of excellence, a platform that aims to be the stepping stone for innovative ideas to turn them into an opportunity to revolutionize the world.
               </p>
             </div>
           </div>

@@ -293,3 +293,7 @@ a {
 .text-color {
   color: #58f6aa;
 }
+
+.dates-font {
+  font-family: "Josefin Sans", sans-serif;
+}

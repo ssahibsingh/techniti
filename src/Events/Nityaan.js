@@ -17,8 +17,8 @@ const Nityaan = () => {
             <div>
               <h3 className="text-2xl ">Event Description</h3>
               <p className="leading-7">
-                NIT, Jalandhar is back with NITYAAN, catered to quench the
-                thirst of rocket enthusiasm among school students in form of a
+                NITJ is back with NITYAAN, catered to quench the thirst of
+                rocket enthusiasm among school students in form of a
                 competition. NITYAAN aims to sharpen the scientific skills of
                 young minds for their brighter future. The event will initiate
                 at around 2 PM on the 26th of February on the NITJ campus. This

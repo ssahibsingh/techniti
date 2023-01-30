@@ -7,18 +7,18 @@ const AboutUs = () => {
         <h1 className="fw-bold text-uppercase">About Us </h1>
         {/* <p className="icon" style={{ fontSize: "2.1rem" }}>< AiOutlineDoubleRight /></p> */}
         <div>
-          <h2 className="mt-5 fw-bold">Techniti 2023</h2>
-          <p className="fw-normal">
+          <h2 className="mt-5 fw-bold">TechNITi 2023</h2>
+          <p className="fw-normal ">
             North zone’s biggest annual techno-managerial fest is being held
-            from 25th to 28th February 2023 on its campus and we’d love to see
-            you among us at the event. There’s so much in it for everyone, from
-            coding geeks to start-up enthusiasts, from gamers to designers, from
-            drone shows to ATV races, from robo wars to a fashion parade. It’ll
-            be one stop for all the technological and design enthusiasts from
-            all domains. Teams from colleges and universities across the nation
-            will be participating in the events. The prizes for winners are as
-            exciting as the competitions. We thus invite you to complement us in
-            our celebration of technology.
+            from 25<sup>th</sup> to 28<sup>th</sup> February 2023 on its campus
+            and we’d love to see you among us at the event. There’s so much in
+            it for everyone, from coding geeks to start-up enthusiasts, from
+            gamers to designers, from drone shows to ATV races, from robo wars
+            to a fashion parade. It’ll be one stop for all the technological and
+            design enthusiasts from all domains. Teams from colleges and
+            universities across the nation will be participating in the events.
+            The prizes for winners are as exciting as the competitions. We thus
+            invite you to complement us in our celebration of technology.
           </p>
         </div>
         <div>
@@ -31,7 +31,8 @@ const AboutUs = () => {
             Ministry of Human Resource Development, Govt of India, it has
             declared the institute as an Institute of National Importance under
             the act of Parliament 2007. According to the NIRF ranking, the
-            Institute has been ranked 42nd among all engineering colleges.
+            Institute has been ranked 42<sup>nd</sup> among all engineering
+            colleges.
           </p>
           <a href="https://www.nitj.ac.in/" className="" target="_blank">
             <button className="btn  d-flex btn-green mx-auto w-125 rounded">

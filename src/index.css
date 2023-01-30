@@ -296,4 +296,40 @@ a {
 
 .dates-font {
   font-family: "Josefin Sans", sans-serif;
+  animation: blink linear 1.2s infinite;
+  background: #00ff00;
+  background: linear-gradient(to left, #00ff00 0%, #24ffff 50%, #00ffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aboutfont {
+  font-size: 1.1rem;
+}
+
+.about-content {
+  width: 80% !important;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
 }

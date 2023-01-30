@@ -11,7 +11,7 @@ export const data = [
   {
     key: 2,
     name: "Fashion Show",
-    prize: "₹ 30000",
+    prize: "30000",
     Imgsrc: require("./files/fashion.webp"),
     link: "https://forms.gle/1yoLPcBeK3oidNxC9",
     visit: "event/fashionshow",
@@ -29,7 +29,7 @@ export const data = [
   {
     key: 4,
     name: "Hackathon",
-    prize: "₹ 60000",
+    prize: "60000",
     Imgsrc: require("./files/hackathon.webp"),
     link: "https://www.nitj.ac.in/events_registration/hackmol/login",
     visit: "https://hackmol.tech/",
@@ -174,7 +174,7 @@ export const data = [
   {
     key: 20,
     name: "trickycircuits",
-    prize: "",
+    prize: "Updating soon",
     Imgsrc: require("./files/trickycircuits.webp"),
     link: "register",
     visit: "event/trickycircuits",
@@ -183,7 +183,7 @@ export const data = [
   {
     key: 21,
     name: "gaNIT",
-    prize: "",
+    prize: "Updating soon",
     Imgsrc: require("./files/maths.webp"),
     link: "register",
     visit: "event/integrationbee",
@@ -192,7 +192,7 @@ export const data = [
   {
     key: 22,
     name: "robohunt",
-    prize: "",
+    prize: "Updating soon",
     Imgsrc: require("./files/robohunt.webp"),
     link: "",
     visit: "event/robohunt",

@@ -15,7 +15,9 @@ const Nityaan = () => {
 
           <div className="px-2">
             <div>
-              <h3 className="text-2xl ">Event Description</h3>
+              <h3 className="text-2xl text-color text-center">
+                Event Description
+              </h3>
               <p className="leading-7">
                 NITJ is back with NITYAAN, catered to quench the thirst of
                 rocket enthusiasm among school students in form of a
@@ -26,19 +28,20 @@ const Nityaan = () => {
                 rockets from the institute’s side.
               </p>
             </div>
-            <h2 className="text-lg font-semibold ">Registration Fee:</h2>
+            <h2 className="text-lg font-semibold text-color text-center ">
+              Registration Fee:
+            </h2>
             <p className="leading-7">
-              <li>INR 200 per non-NITJ team.</li>
+              <li>INR 300 per student.</li>
             </p>
-            <h2 className="text-lg font-semibold ">Salient Features</h2>
+            <h2 className="text-lg font-semibold text-color text-center ">
+              Salient Features
+            </h2>
             <p className="leading-7">
               <ul>
+                <li>Each Team shall comprise 4 or 5 School Students.</li>
                 <li>
-                  Each Team shall comprise 4 School Students and one NITJ
-                  Student.
-                </li>
-                <li>
-                  Cash Prize worth …………… would be bestowed to the Winning Team.
+                  Cash Prize worth 10000 would be bestowed to the Winning Team.
                 </li>
                 <li>
                   Runner-Up Teams would be given Goodies as a token of
@@ -59,7 +62,9 @@ const Nityaan = () => {
                 </li>
               </ul>
             </p>
-            <h2 className="text-lg font-semibold ">Round Details: </h2>
+            <h2 className="text-lg font-semibold text-color text-center">
+              Round Details:{" "}
+            </h2>
             <p className="leading-7">
               <ul>
                 <li>
@@ -79,7 +84,7 @@ const Nityaan = () => {
               </ul>
             </p>
 
-            <p className="text-lg font-semibold mt-5">
+            <p className="text-lg font-semibold mt-5 text-color text-center">
               Cash prizes for winners:
             </p>
             <li>1st position:to be decided</li>

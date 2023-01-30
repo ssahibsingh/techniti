@@ -7,8 +7,8 @@ const AboutUs = () => {
         <h1 className="fw-bold text-uppercase">About Us </h1>
         {/* <p className="icon" style={{ fontSize: "2.1rem" }}>< AiOutlineDoubleRight /></p> */}
         <div>
-          <h2 className="mt-5 fw-bold">TechNITi 2023</h2>
-          <p className="fw-normal ">
+          <h2 className="mt-5 fw-bold text-color">TechNITi 2023</h2>
+          <p className="fw-normal aboutfont">
             North zone’s biggest annual techno-managerial fest is being held
             from 25<sup>th</sup> to 28<sup>th</sup> February 2023 on its campus
             and we’d love to see you among us at the event. There’s so much in
@@ -22,8 +22,8 @@ const AboutUs = () => {
           </p>
         </div>
         <div>
-          <h2 className="mt-5 fw-bold">NIT Jalandhar</h2>
-          <p className="fw-normal">
+          <h2 className="mt-5 fw-bold text-color ">NIT Jalandhar</h2>
+          <p className="fw-normal aboutfont">
             Dr.B.R.Ambedkar National Institute of Technology was established in
             the year 1987 as Regional Engineering College and was given the
             status of the National Institute of Technology (Deemed University)
@@ -34,15 +34,20 @@ const AboutUs = () => {
             Institute has been ranked 42<sup>nd</sup> among all engineering
             colleges.
           </p>
-          <a href="https://www.nitj.ac.in/" className="" target="_blank">
+          <a
+            href="https://www.nitj.ac.in/"
+            className=""
+            rel="noreferrer"
+            target="_blank"
+          >
             <button className="btn  d-flex btn-green mx-auto w-125 rounded">
               Visit to Know More
             </button>
           </a>
         </div>
         <div>
-          <h3 className="mt-5 fw-bold">How to Reach us ?</h3>
-          <p className="fw-normal">
+          <h3 className="mt-5 fw-bold text-color">How to Reach us ?</h3>
+          <p className="fw-normal aboutfont">
             The city of Jalandhar is situated between the rivers Sutlej and Beas
             on NH-1. It is one of the important towns of Punjab. It is an
             internationally renowned center for sports leather goods and hand

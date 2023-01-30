@@ -19,6 +19,7 @@ const Footer = () => {
                 href="https://www.nitj.ac.in/"
                 className="text-color"
                 target="_blank"
+                rel="noreferrer"
               >
                 NIT Jalandhar {""}
                 <i className="fa-solid fa-arrow-up-right-from-square fa-sm text-color"></i>

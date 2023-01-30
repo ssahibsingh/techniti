@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className="row justify-content-center">
             <div className="about-content my-5">
-              <p className="fs-4">
+              <p className="fs-5">
                 TechNITi is just not an event but a celebration of colors of
                 innovation and management and aims to foster the entrepreneurial
                 spirit among the student fraternity. TechNITi is an expression

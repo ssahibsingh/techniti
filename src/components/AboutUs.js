@@ -67,20 +67,20 @@ const AboutUs = () => {
         </div>
         <div>
           <div></div>
-          <ul className="aboutus-logos mt-4 d-flex  justify-content-around align-items-center">
-            <li className="org-logo">
-              <img src={nitj} alt="nitj" className="logos-img" />
-              <p className="mt-2 fs-5">NIT J</p>
-            </li>
-            <li className="org-logo">
-              <img src={tta} alt="tta" className="logos-img" />
+          <div className="aboutus-logos mt-4 d-flex  justify-content-around align-items-center">
+            <div className="org-logo">
+              <img src={tta} alt="nitj" className="logos-img" />
               <p className="mt-2 fs-5">TTA</p>
-            </li>
-            <li className="org-logo">
+            </div>
+            <div className="org-logo">
+              <img src={nitj} alt="nitj" className="logos-img" />
+              <p className="mt-2 fs-5">NITJ</p>
+            </div>
+            <div className="org-logo">
               <img src={iic} alt="iic" className="logos-img" />
               <p className="mt-2 fs-5">IIC</p>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

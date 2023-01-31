@@ -346,13 +346,15 @@ a {
 }
 
 .logos-img {
-  height: 50%;
   width: 25%;
 }
-.tta-logo {
-  height: 50%;
-  width: 10%;
-}
+
 /* .org-logo {
   background-color: ;
 } */
+
+@media (max-width: 540px) {
+  .aboutus-logos {
+    display: block !important;
+  }
+}

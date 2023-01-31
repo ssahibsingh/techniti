@@ -5,7 +5,7 @@ export const data = [
     name: "Hackathon",
     prize: "60000",
     Imgsrc: require("./files/hackathon.jpg"),
-    link: "https://www.nitj.ac.in/events_registration/hackmol/login",
+    link: "https://hackmol.tech/",
     visit: "https://hackmol.tech/",
     desc: "HackMOL is the flagship annual 30-hour hackathon being organised by GDSC of NIT J...",
   },

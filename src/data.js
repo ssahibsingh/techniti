@@ -1,12 +1,13 @@
 export const data = [
   {
     key: 1,
-    name: "2-day Workshops",
-    prize: "Internships & Certificates",
-    Imgsrc: require("./files/workshop.webp"),
-    link: "https://forms.gle/k5BuoSoYThWQUXmWA",
-    visit: "event/workshop",
-    desc: "In hand practical Workshops on Ethical Hacking and Blockhain, get an intern oppurtunity with startup...",
+
+    name: "Hackathon",
+    prize: "60000",
+    Imgsrc: require("./files/hackathon.jpg"),
+    link: "https://www.nitj.ac.in/events_registration/hackmol/login",
+    visit: "https://hackmol.tech/",
+    desc: "HackMOL is the flagship annual 30-hour hackathon being organised by GDSC of NIT J...",
   },
   {
     key: 2,
@@ -28,12 +29,12 @@ export const data = [
   },
   {
     key: 4,
-    name: "Hackathon",
-    prize: "60000",
-    Imgsrc: require("./files/hackathon.webp"),
-    link: "https://www.nitj.ac.in/events_registration/hackmol/login",
-    visit: "https://hackmol.tech/",
-    desc: "HackMOL is the flagship annual 30-hour hackathon being organised by GDSC of NIT J...",
+    name: "2-day Workshops",
+    prize: "Internships & Certificates",
+    Imgsrc: require("./files/workshop.webp"),
+    link: "https://forms.gle/k5BuoSoYThWQUXmWA",
+    visit: "event/workshop",
+    desc: "In hand practical Workshops on Ethical Hacking and Blockhain, get an intern oppurtunity with startup...",
   },
   {
     key: 5,

@@ -18,7 +18,7 @@ const About = () => {
               <p className="fs-5">
                 TechNITi is just not an event but a celebration of colors of
                 innovation and management and aims to foster the entrepreneurial
-                spirit among the student fraternity. TechNITi is an expression
+                spirit among the students fraternity. TechNITi is an expression
                 of excellence, a platform that aims to be the stepping stone for
                 innovative ideas and to turn them into an opportunity to
                 revolutionize the world.

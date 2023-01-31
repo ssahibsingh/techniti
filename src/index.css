@@ -333,3 +333,26 @@ a {
     opacity: 1;
   }
 }
+
+.aboutus-logos > ul {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; */
+}
+
+.aboutus-logos > li {
+  list-style: none !important;
+}
+
+.logos-img {
+  height: 50%;
+  width: 25%;
+}
+.tta-logo {
+  height: 50%;
+  width: 10%;
+}
+/* .org-logo {
+  background-color: ;
+} */

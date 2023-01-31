@@ -39,7 +39,7 @@ const Nityaan = () => {
             </h2>
             <p className="leading-7">
               <ul>
-                <li>Each Team shall comprise 4 or 5 School Students.</li>
+                <li>Each Team shall comprise 5 School Students.</li>
                 <li>
                   Cash Prize worth 10000 would be bestowed to the Winning Team.
                 </li>

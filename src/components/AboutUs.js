@@ -66,17 +66,22 @@ const AboutUs = () => {
           <h3 className="text-color  mt-5">Organized By</h3>
         </div>
         <div>
-          <div></div>
-          <div className="aboutus-logos mt-4 d-flex  justify-content-around align-items-center">
-            <div className="org-logo">
-              <img src={tta} alt="nitj" className="logos-img" />
-              <p className="mt-2 fs-5">TTA</p>
-            </div>
+          <div>
             <div className="org-logo">
               <img src={nitj} alt="nitj" className="logos-img" />
               <p className="mt-2 fs-5">NITJ</p>
             </div>
             <div className="org-logo">
+              <p className="mt-4 fs-3 text-color fw-bold">TechNITiJ 2023</p>
+            </div>
+          </div>
+          <div className="aboutus-logos  d-flex  justify-content-around align-items-center">
+            <div className="">
+              <img src={tta} alt="nitj" className="logos-img" />
+              <p className="mt-2 fs-5">TTA</p>
+            </div>
+
+            <div className="">
               <img src={iic} alt="iic" className="logos-img" />
               <p className="mt-2 fs-5">IIC</p>
             </div>

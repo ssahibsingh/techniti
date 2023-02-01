@@ -349,8 +349,12 @@ a {
   width: 25%;
 }
 
-@media (max-width: 540px) {
+/* @media (max-width: 540px) {
   .aboutus-logos {
     display: block !important;
   }
+} */
+.org-logo {
+  width: 50%;
+  margin: auto;
 }

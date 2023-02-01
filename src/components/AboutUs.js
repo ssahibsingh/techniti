@@ -62,10 +62,8 @@ const AboutUs = () => {
             station.
           </p>
         </div>
-        <div>
-          <h3 className="text-color  mt-5">Organized By</h3>
-        </div>
-        <div>
+        <div>{/* <h3 className="text-color  mt-5">Organized By</h3> */}</div>
+        <div className="mt-5">
           <div>
             <div className="org-logo">
               <img src={nitj} alt="nitj" className="logos-img" />
@@ -75,7 +73,7 @@ const AboutUs = () => {
               <p className="mt-4 fs-3 text-color fw-bold">TechNITiJ 2023</p>
             </div>
           </div>
-          <div className="aboutus-logos  d-flex  justify-content-around align-items-center">
+          <div className="aboutus-logos  d-flex  justify-content-evenly align-items-center">
             <div className="">
               <img src={tta} alt="nitj" className="logos-img" />
               <p className="mt-2 fs-5">TTA</p>

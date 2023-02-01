@@ -23,7 +23,8 @@ const Robohunt = () => {
                 the competition is for the teams' bots to successfully navigate
                 a path and reach endpoints where balls are placed. The concept
                 of the competition closely resembles that of a line-following
-                robot. Competition type: Round-Robin.
+                robot.{" "}
+                <p className="text-color">Competition type: Round-Robin.</p>
               </p>
             </div>
             <h2 className="text-lg font-semibold ">Team Specification:</h2>

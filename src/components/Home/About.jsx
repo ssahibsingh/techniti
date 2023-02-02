@@ -10,7 +10,7 @@ const About = () => {
             <p className="text-green bg-inherit">What is TechNITi ?</p>
           </div>
           <div className="row justify-content-center">
-            <div className="about-content my-5">
+            <div className="col-md-6 col-sm-8 col-12 text-center my-5">
               <p>
                 TechNITI is a one of its kind event that goes far beyond just
                 being an event. It is celebration of colors of innovation and

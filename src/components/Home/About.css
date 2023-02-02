@@ -1,9 +1,9 @@
 .section-about{
     padding-top: 100px;
-    min-height: 40vh;
+    min-height: 60vh;
 }
 
 .about-content{
-    width: 60%;
+    /* width: 60%; */
     text-align: center;
 }

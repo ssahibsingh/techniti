@@ -44,12 +44,12 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} exact />
-            <Route path="/register" element={<Registration />} exact />
+            {/* <Route path="/register" element={<Registration />} exact /> */}
+            <Route path="/event" element={<Events />} exact />
+            {/* <Route path="/team" element={<OurTeam />} exact /> */}
+            <Route path="/about" element={<AboutUs />} exact />
             <Route path="/event/nityaan" element={<Nityaan />} exact />
             <Route path="/event/workshop" element={<Workshop />} exact />
-            <Route path="/event" element={<Events />} exact />
-            <Route path="/team" element={<OurTeam />} exact />
-            <Route path="/about" element={<AboutUs />} exact />
             <Route path="/event/avishkar" element={<Avishkar />} exact />
             <Route path="/event/bolt-bolt" element={<Boltbolt />} exact />
             <Route

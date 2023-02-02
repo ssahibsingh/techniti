@@ -7,7 +7,7 @@ const Header = () => {
       <div className="section-header d-flex align-items-center">
         <div className="container bg-transparent">
           <div className="row justify-content-center text-center align-items-center py-5 header-row">
-            <div className="col-md-6 col-12 h-100 header-column">
+            <div className="col-12 h-100 header-column">
               <div className="my-5 px-5 bg-inherit">
                 <div className="">
                   <div className="">

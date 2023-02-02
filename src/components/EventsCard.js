@@ -19,7 +19,7 @@ const EventsCard = ({ Imgsrc, EventName, prize, link, desc, visit }) => {
             <div className="card-body bg-trans">
               <p className="card-text bg-trans">{desc}</p>
               <div className="text-center">
-                <p className="fw-bold text-green">Prizes: {prize}</p>
+                <p className="fw-bold text-green">Prizes Worth: {prize}</p>
                 <div className="d-flex flex-column gap-2">
                   <a href={link} target="_blank" rel="noreferrer">
                     <button className="btn btn-green mx-2 w-75 rounded">

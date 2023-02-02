@@ -33,36 +33,35 @@ const Microrobowar = () => {
             </p>
             <h2 className="text-lg font-semibold">Rules and Regulations::</h2>
             <li className="leading-7">
-              1.All bots must be less than 6 kg in weight and no larger than
+              All bots must be less than 6 kg in weight and no larger than
               20x20x20 cm in size.
             </li>
             <li className="leading-7">
-              2.Two bots will be placed in the arena at a time and the bot with
+              Two bots will be placed in the arena at a time and the bot with
               the lesser points will be knocked out.
             </li>
             <li className="leading-7">
-              3.Any unsafe or unethical behavior will lead to disqualification.
+              Any unsafe or unethical behavior will lead to disqualification.
             </li>
-            <li className="leading-7">4.Referee decision is final.</li>
+            <li className="leading-7">Referee decision is final.</li>
             <li className="leading-7">
-              5.A safety check will be conducted on all bots before the
+              A safety check will be conducted on all bots before the
               competition begins
             </li>
             <li className="leading-7">
-              6.Any form of external remote-control system, including wireless
+              Any form of external remote-control system, including wireless
               communication devices is prohibited.
             </li>
             <li className="leading-7">
-              7.Teams must adhere to all arena rules and regulations as
-              specified
+              Teams must adhere to all arena rules and regulations as specified
             </li>
             <li className="leading-7">
               A safety check will be conducted on all bots before the
               competition begins.
             </li>
             <li className="leading-7">
-              1Any form of the external remote-control system, including
-              wireless communication devices, is prohibited.
+              Any form of the external remote-control system, including wireless
+              communication devices, is prohibited.
             </li>
             <li className="leading-7">
               Teams must adhere to all arena rules and regulations as specified

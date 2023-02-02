@@ -14,6 +14,10 @@ const Header = () => {
                     <p className="pt-3 text-green">THINK / COMPETE / INNOVATE</p>
                     <h1 className="display-1 fw-bold">TechNITi 2023</h1>
                   </div>
+                  <div className="mt-3">
+                    {/*  */}
+                    <p className="mt-2 fw-bold fs-4 dates-font">February 25 - 28, 2023</p>
+                  </div>
                   <div className="my-5 d-flex justify-content-center gap-3">
                     <a href="https://forms.gle/pN6KCVZX37H7QSHD8" target="_blank" rel="noreferrer" className="">
                       <button

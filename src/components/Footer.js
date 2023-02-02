@@ -1,5 +1,10 @@
 import React from "react";
-import { FiInstagram, FiLinkedin, FiMail } from "react-icons/fi";
+import {
+  FiInstagram,
+  FiLinkedin,
+  FiMail,
+  FiExternalLink,
+} from "react-icons/fi";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -9,7 +14,16 @@ const Footer = () => {
         <div className="container my-3">
           <div className="row d-flex justify-content-between">
             <p className="col-md-4 col-sm-12 col-12 text-center">
-              Copyright &copy; {year} TechNITi, NIT Jalandhar
+              Copyright &copy; {year} TechNITi,{" "}
+              <a
+                href="https://www.nitj.ac.in/"
+                className="text-color"
+                target="_blank"
+                rel="noreferrer"
+              >
+                NIT Jalandhar {""}
+                <i className="fa-solid fa-arrow-up-right-from-square fa-sm text-color"></i>
+              </a>
             </p>
             <div className="col-md-4 col-sm-12 col-12 text-center">
               <ul className="list-unstyled d-flex  justify-content-center align-items-center gap-3 home-icons">
@@ -51,8 +65,8 @@ const Footer = () => {
                 className="text-green"
               >
                 Sahib Singh
-              </a>
-              {" "}& {" "}
+              </a>{" "}
+              &{" "}
               <a
                 href="https://github.com/Nitesh2905"
                 target="_blank"

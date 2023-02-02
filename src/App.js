@@ -33,6 +33,8 @@ import {
 import Nityaan from "./Events/Nityaan";
 import Squadoftheyear from "./Events/Squadoftheyear";
 import Workshop from "./Events/Workshop";
+import SmartTank from "./Events/SmartTank";
+import LumenTrace from "./Events/LumenTrace";
 
 function App() {
   return (
@@ -74,6 +76,8 @@ function App() {
               element={<Microrobowar />}
               exact
             />
+            <Route path="/event/smart-tank" element={<SmartTank />} exact />
+            <Route path="/event/lumen-trace" element={<LumenTrace />} exact />
             <Route path="/event/prayaas" element={<Prayaas />} exact />
             <Route path="/event/robohunt" element={<Robohunt />} exact />
             <Route path="/event/rccars" element={<RCcars />} exact />

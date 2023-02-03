@@ -182,9 +182,9 @@ export const data = [
   {
     key: 20,
     name: "gaNIT",
-    prize: "Updating soon",
+    prize: "5000",
     Imgsrc: require("./files/maths.webp"),
-    link: "register",
+    link: "https://forms.gle/yZDDpBLV5oM4YCQ3A",
     visit: "event/integrationbee",
     desc: "The Integration Bee is an annual traditional playoff-style event that has gained popularity in US colleges and universities...",
   },

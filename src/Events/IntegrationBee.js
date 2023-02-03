@@ -4,7 +4,7 @@ const Mathematics = () => {
   return (
     <div className="container">
       <div className="singleevents">
-        <div className="para-text flex justify-evenly p-5 gap-5 ">
+        <div className="para-text flex justify-evenly p-2 gap-5 ">
           <div>
             <h1 className="text-center text-3xl font-bold uppercase">
               Integration Bee 2023
@@ -13,9 +13,9 @@ const Mathematics = () => {
             <img />
           </div>
 
-          <div className="px-4">
+          <div className="px-2">
             <div>
-              <h4 className="text-2xl font-semibold ">Event Description</h4>
+              <h4 className="text-center text-color ">Event Description</h4>
               <p className="leading-7">
                 The Integration Bee is an annual traditional playoff-style event
                 that has gained popularity in US colleges and universities, and
@@ -24,11 +24,11 @@ const Mathematics = () => {
                 head-to-head to determine “Le grande intégrateur”.
               </p>
             </div>
-            <h2 className="text-lg font-semibold ">Registration Fee:</h2>
+            <h4 className="text-center text-color ">Registration Fee:</h4>
             <p className="leading-7">
-              <li>INR 200 per non-NITJ team.</li>
+              <li>INR 100 per team.</li>
             </p>
-            <h2 className="text-lg font-semibold ">Participants</h2>
+            <h4 className="text-center text-color ">Participants</h4>
             <p className="leading-7">
               <li>
                 Competition is open to students from other academic institutions
@@ -40,7 +40,7 @@ const Mathematics = () => {
                 first-serve basis.
               </li>
               <li>
-                A nominal registration fee of Rs. 200 will be charged from each
+                A nominal registration fee of Rs. 100 will be charged from each
                 team.
               </li>
               <li>
@@ -48,7 +48,7 @@ const Mathematics = () => {
                 official institute/school ID.
               </li>
             </p>
-            <h2 className="text-lg font-semibold">Round 1 Details:</h2>
+            <h4 className="text-center text-color">Round 1 Details:</h4>
             (a) For NITJ students, qualifier round to select 4 teams for the
             Integration Bee will be of the same format as the actual event and
             will be held on February 26th, 2023.
@@ -88,10 +88,10 @@ const Mathematics = () => {
             and when needed and will be notified before or at the competition.
             <br /> 4. In case any ambiguity arises, the decision of the judges
             will stand final
-            <p className="text-lg font-semibold mt-5">
-              Cash prizes for winners:
-            </p>
-            <li>1st position: INR 2500 + 2 Books</li>
+            <h4 className="text-center text-color">
+              Prizes worth for winners:
+            </h4>
+            <li>1st position: INR 2500 </li>
             <li>2nd position: INR 1500</li>
             <li>3rd position: INR 1000</li>
           </div>

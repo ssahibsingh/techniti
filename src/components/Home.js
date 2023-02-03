@@ -10,18 +10,22 @@ import ParticleBackground from "./ParticleBackground";
 const Home = () => {
   return (
     <>
-      <ParticleBackground />
+      {/* <ParticleBackground /> */}
       <Header />
       <About />
       <Events count={3} />
       <div className="mb-5 text-center">
-        <Link to={'/event'} onClick={() => {
-          window.scrollTo(0, 0);
-        }}><button className="btn btn-grey px-4 py-3">Load More</button></Link>
+        <Link
+          to={"/event"}
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
+          <button className="btn btn-grey px-4 py-3">Load More</button>
+        </Link>
       </div>
       <Timeline />
       <Sponsor />
-
     </>
   );
 };

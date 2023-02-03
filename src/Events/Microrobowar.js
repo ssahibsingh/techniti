@@ -4,7 +4,7 @@ const Microrobowar = () => {
   return (
     <div className="container">
       <div className="singleevents">
-        <div className="para-text flex justify-evenly p-5 gap-5 ">
+        <div className="para-text flex justify-evenly p-2 gap-5 ">
           <div>
             <h1 className="text-center text-3xl font-bold uppercase ">
               Microrobowar
@@ -15,7 +15,7 @@ const Microrobowar = () => {
 
           <div className="px-4">
             <div>
-              <h4 className="text-2xl font-semibold ">Event Description</h4>
+              <h3 className="text-color text-center  ">Event Description</h3>
               <p className="leading-7">
                 Micro Robo War is a robot fighting competition where contestant
                 teams will compete head-to-head in a 1 vs 1 match. Both teams
@@ -27,11 +27,8 @@ const Microrobowar = () => {
                 Knockout.
               </p>
             </div>
-            <h2 className="text-lg font-semibold ">Team Specification:</h2>
-            <p className="leading-7">
-              <li>Team Size: 2 members</li>
-            </p>
-            <h2 className="text-lg font-semibold">Rules and Regulations::</h2>
+
+            <h4 className="text-color text-center ">Rules and Regulations::</h4>
             <li className="leading-7">
               All bots must be less than 6 kg in weight and no larger than
               20x20x20 cm in size.
@@ -70,12 +67,20 @@ const Microrobowar = () => {
 
             <p className="text-lg font-semibold">Registration Fees: INR 200</p>
 
-            <p className="text-lg font-semibold mt-10">
+            <h4 className="text-color text-center ">
               Cash prizes for winners:
-            </p>
-            <li>1st position: INR 3500</li>
-            <li>2nd position: INR 2500</li>
-            <li>3rd position: INR 2000</li>
+            </h4>
+            <ul>
+              <li>1st position: INR 3500</li>
+              <li>2nd position: INR 2500</li>
+              <li>3rd position: INR 2000</li>
+            </ul>
+            <h4 className="text-color text-center ">Team Coordinators</h4>
+            <ul>
+              <li>Arpit (9636880077)</li>
+              <li>Aaryan (8826177719)</li>
+              <li>Bhaskar (6283226124)</li>
+            </ul>
           </div>
         </div>
       </div>

@@ -63,7 +63,7 @@ export const data = [
   {
     key: 7,
     name: "microrobowar",
-    prize: "8000 ",
+    prize: "8000",
     Imgsrc: require("./files/microrobowar.webp"),
     link: "register",
     visit: "event/microrobowar",
@@ -136,7 +136,7 @@ export const data = [
   {
     key: 15,
     name: "bolt-bolt",
-    prize: "",
+    prize: "15000",
     Imgsrc: require("./files/boltbolt.webp"),
     link: "register",
     visit: "event/bolt-bolt",
@@ -145,7 +145,7 @@ export const data = [
   {
     key: 16,
     name: "lumen trace",
-    prize: "4500",
+    prize: "10500",
     Imgsrc: require("./files/lumentrace.webp"),
     link: "register",
     visit: "event/lumen-trace",
@@ -154,7 +154,7 @@ export const data = [
   {
     key: 17,
     name: "smart tank",
-    prize: "4500",
+    prize: "6000",
     Imgsrc: require("./files/smarttank.webp"),
     link: "register",
     visit: "event/smart-tank",

@@ -41,7 +41,7 @@ import ParticleBackground from "./components/ParticleBackground";
 function App() {
   return (
     <>
-      <ParticleBackground />
+      {/* <ParticleBackground /> */}
       <Router>
         <NavbarN />
         <ScrollToTop>

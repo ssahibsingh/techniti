@@ -6,16 +6,16 @@ const Robohunt = () => {
       <div className="singleevents">
         <div className="para-text flex justify-evenly p-2 gap-5 ">
           <div>
-            <h1 className="text-center text-3xl font-bold text-uppercase ">
+            <h1 className="text-center text-3xl font-bold text-center text-uppercase ">
               robohunt
             </h1>
 
             <img />
           </div>
 
-          <div className="px-4">
+          <div className="px-2">
             <div>
-              <h4 className="text-2xl font-semibold ">Event Description</h4>
+              <h4 className="text-center text-color ">Event Description</h4>
               <p className="leading-7">
                 Robo Hunt is a competition where teams will write the code of
                 controller of small robots, known as bots, that are less than 6
@@ -27,7 +27,7 @@ const Robohunt = () => {
                 <p className="text-color">Competition type: Round-Robin.</p>
               </p>
             </div>
-            <h2 className="text-lg font-semibold ">Team Specification:</h2>
+            <h4 className="text-center text-color ">Team Specification:</h4>
             <p className="leading-7">
               <li>Team Size: 2 members</li>
             </p>
@@ -63,14 +63,20 @@ const Robohunt = () => {
               by the organizers
             </li>
 
-            <p className="text-lg font-semibold">Registration Fees: INR 100</p>
+            <p className=" text-color">Registration Fees: INR 100</p>
 
-            <p className="text-lg font-semibold mt-10">
-              Cash prizes for winners:
-            </p>
-            <li>1st position: INR 1500</li>
-            <li>2nd position: INR 1000</li>
-            <li>3rd position: INR 500</li>
+            <p className="text-center text-color">Cash prizes for winners:</p>
+            <ul>
+              <li>1st position: INR 1500</li>
+              <li>2nd position: INR 1000</li>
+              <li>3rd position: INR 500</li>
+            </ul>
+            <p className="text-center text-color">Team Coordinators: </p>
+            <ul>
+              <li>Yash (9870683549)</li>
+              <li>Rohit (9877065837)</li>
+              <li>Lovish Garg (7696637170)</li>
+            </ul>
           </div>
         </div>
       </div>

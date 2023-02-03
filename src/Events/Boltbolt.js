@@ -13,47 +13,45 @@ const Boltbolt = () => {
 
           <div className="px-4">
             <div>
-              <h4 className="text-color ">Event Description</h4>
+              <h4 className="text-color text-center ">Event Description </h4>
               <p className="leading-7">
-                It is a competition in which a team of 4 has to make a remote
-                controlled robot car which has to race with other robots
-                crossing obstacles and checkpoints . Every bot has to follow the
-                track and points will be awarded according to speed , design
-                ,time and racing behavior.
+                In this teams design and build autonomous/controlled vehicles to
+                navigate through challenging tracks filled with obstacles such
+                as unstable base, bridges, and more. The goal is to design a
+                robocar that can easily overcome these hurdles. The event is
+                open to participants from various disciplines as it requires a
+                combination of skills such as designing, coding, and core
+                technical knowledge. In simpler terms, Bot-bolt is a contest
+                where teams make robot cars to race through tough tracks with
+                obstacles, and it requires a mix of design, coding and technical
+                skills to participate.
               </p>
             </div>
 
-            <h2 className="text-color">Details:</h2>
+            <h4 className="text-color text-center">Judging Criteria:</h4>
+            <p>Event will be divided into Two major rounds: </p>
             <ul>
               <li className="leading-7">
-                There will be 2 rounds of the competition.
+                The first round will be less challenging, with easy obstacles to
+                navigate through. The judging for this round will be based
+                solely on the design of the robocar and the time it takes for a
+                team to complete the track.
               </li>
 
               <li className="leading-7">
-                The first round’s track will be a bit easy and the second track
-                will be a little difficult .
-              </li>
-              <li className="leading-7">
-                The top 5 performers of round 1 will be participating in the
-                second round.
-              </li>
-              <li className="leading-7">
-                We have to create 2 tracks in front of LT which will include
-                obstacles , walls , poles , ground and bridges.
-              </li>
-              <li className="leading-7">
-                We are expecting at least 10 teams to participate in this racing
-                event.
-              </li>
-              <li className="text-color">
-                We will create some teasers for the fun and interesting race.
+                The second round of the competition will consist of more
+                difficult and tricky obstacles. It will be judged based on both
+                the time it takes for a team to complete the round and the
+                number of attempts they needed to get through all the challenge.
               </li>
             </ul>
+            <p>Rulebook will be shared to teams after registrations.</p>
+            <h4>Team size :- 1 to 4 (max)</h4>
 
-            <h4 className="text-color">Cash prizes for winners:</h4>
-            <li>1st position: INR 2000</li>
-            <li>2nd position: INR 1500</li>
-            <li>3rd position: INR 1000</li>
+            <h4 className="text-color text-center">Cash prizes for winners:</h4>
+            <li>1st position: INR 7000</li>
+            <li>2nd position: INR 5000</li>
+            <li>3rd position: INR 3000</li>
           </div>
         </div>
       </div>

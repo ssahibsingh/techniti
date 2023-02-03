@@ -14,7 +14,7 @@ const TrickyCircuits = () => {
 
         <div className="px-2">
           <div>
-            <h4 className="text-2xl font-semibold ">Event Description</h4>
+            <h4 className="text-center text-color ">Event Description</h4>
             <p className="leading-7">
               Tricky Circuits is a competition where participants will be given
               circuits consisting of resistors, gates, and other electronic
@@ -23,14 +23,14 @@ const TrickyCircuits = () => {
               circuits increasing as the event progresses.
             </p>
           </div>
-          <h2 className="text-lg font-semibold ">Rounds:</h2>
+          <h4 className="text-center text-color ">Rounds:</h4>
           <p className="leading-7">
             Both rounds will be circuit-solving rounds. Circuit components will
             be given to the participants, and the circuit will be constructed on
             the spot with the help of the circuit diagrams provided. The time
             for construction and solving the circuit will be provided on spot. 
           </p>
-          <h2 className="text-lg font-semibold">Rules and Regulations::</h2>
+          <h4 className="text-center text-color">Rules and Regulations::</h4>
           <ul>
             <li className="leading-7">
               All participants must be present on time for the event
@@ -62,14 +62,23 @@ const TrickyCircuits = () => {
               by the organizers.
             </li>
           </ul>
-          <p className="text-lg font-semibold">Registration Fees: INR 100</p>
-
-          <p className="text-lg font-semibold mt-10">
-            Cash prizes for winners:
+          <p className="text-lg font-semibold  text-color">
+            Registration Fees: INR 100
           </p>
-          <li>1st position: INR 2500</li>
-          <li>2nd position: INR 1500</li>
-          <li>3rd position: INR 1000</li>
+
+          <h4 className="text-color text-center">Cash prizes for winners:</h4>
+          <ul>
+            <li>1st position: INR 2500</li>
+            <li>2nd position: INR 1500</li>
+            <li>3rd position: INR 1000</li>
+          </ul>
+
+          <h4 className="text-color text-center ">Team Coordinators</h4>
+          <ul>
+            <li>Manish (9532861722)</li>
+            <li>Gargee (6371785357)</li>
+            <li>Divanshi (9463636056) </li>
+          </ul>
         </div>
       </div>
     </div>

@@ -5,18 +5,20 @@ import About from "./Home/About";
 import Header from "./Home/Header";
 import Sponsor from "./Home/Sponsor";
 import Timeline from "./Home/Timeline";
+import ParticleBackground from "./ParticleBackground";
 
 const Home = () => {
   return (
     <>
+      <ParticleBackground />
       <Header />
       <About />
-      <Events count={3}/>
+      <Events count={3} />
       <div className="mb-5 text-center">
-        <Link to={'/event'} onClick={()=>{
-          window.scrollTo(0,0);
+        <Link to={'/event'} onClick={() => {
+          window.scrollTo(0, 0);
         }}><button className="btn btn-grey px-4 py-3">Load More</button></Link>
-      </div>      
+      </div>
       <Timeline />
       <Sponsor />
 

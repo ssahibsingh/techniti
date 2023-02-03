@@ -5,7 +5,6 @@ import About from "./Home/About";
 import Header from "./Home/Header";
 import Sponsor from "./Home/Sponsor";
 import Timeline from "./Home/Timeline";
-import ParticleBackground from "./ParticleBackground";
 
 const Home = () => {
   return (

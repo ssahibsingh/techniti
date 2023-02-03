@@ -36,8 +36,6 @@ import Workshop from "./Events/Workshop";
 import SmartTank from "./Events/SmartTank";
 import LumenTrace from "./Events/LumenTrace";
 
-import ParticleBackground from "./components/ParticleBackground";
-
 function App() {
   return (
     <>

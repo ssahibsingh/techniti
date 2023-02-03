@@ -9,10 +9,10 @@ const Header = () => {
           <div className="row justify-content-center text-center align-items-center py-5 header-row">
             <div className="col-12 h-100 header-column">
               <div className="my-5 px-5 bg-inherit">
-                <div className="">
-                  <div className="">
-                    <p className="pt-3 text-green">THINK / COMPETE / INNOVATE</p>
-                    <h1 className="display-1 fw-bold">TechNITi 2023</h1>
+                <div className="bg-trans">
+                  <div className="bg-trans">
+                    <p className="pt-3 text-green bg-trans">THINK / COMPETE / INNOVATE</p>
+                    <h1 className="display-1 fw-bold bg-trans">TechNITi 2023</h1>
                   </div>
                   <div className="mt-3">
                     {/*  */}

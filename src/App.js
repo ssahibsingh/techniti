@@ -94,6 +94,7 @@ function App() {
               exact
             />
             <Route path="/event/uavdrone" element={<UAVDrone />} exact />
+            <Route path="register" element={<Registration />} exact />
           </Routes>
         </ScrollToTop>
         <Footer />

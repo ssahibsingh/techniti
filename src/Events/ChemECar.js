@@ -4,30 +4,24 @@ const Chemical2 = () => {
   return (
     <div className="container">
       <div className="singleevents">
-        <div className="para-text flex justify-evenly p-5 gap-5 ">
+        <div className="para-text flex justify-evenly p-2 gap-5 ">
           <div>
             <h1 className="text-center text-3xl font-bold ">CHEM-E-CAR</h1>
-
-            <img />
           </div>
 
-          <div className="px-4">
+          <div className="px-2">
             <div>
-              <h4 className="text-2xl font-semibold ">Event Description</h4>
+              <h4 className="text-color text-center">Event Description</h4>
               <p className="leading-7">
-                Chem-e-Car engages college students in designing and
-                constructing a car powered by a chemical energy source, that
-                will safely run a specific given distance.
+                This competition consists of construction of a car powered by a
+                chemical energy source or reaction. Participants are advised to
+                use their own ideas and materials with effective cost. The
+                winner will be chosen according to the distance covered,
+                material of construction and cost efficiency etc.
               </p>
             </div>
-            <h2 className="text-lg font-semibold ">Team Specification:</h2>
-            <p className="leading-7">
-              <li>
-                A team will consist of maximum 3 members. The number can be less
-                also
-              </li>
-            </p>
-            <h2 className="text-lg font-semibold">Details:</h2>
+
+            <h4 className="text-color text-center">Details:</h4>
             <li className="leading-7">
               This competition consists of construction of a car powered by a
               chemical energy source or reaction.
@@ -41,26 +35,30 @@ const Chemical2 = () => {
               material of construction and cost efficiency etc.
             </li>
 
-            <h2 className="text-lg font-semibold">General Rules</h2>
-            <li className="leading-7">
-              Any kind of damage done to the arena by the prototype will lead to
-              its disqualification.
-            </li>
-            <li className="leading-7">
-              In case of any discrepancies, the decision of the judges will be
-              ultimate and no further arguments will be entertained.
-            </li>
-            <li>
-              The organizers reserve the right to change any or all the rules as
-              they deem fit. In case a change is made it will be notified to the
-              registered team through mail.
-            </li>
+            <h4 className="text-color text-center mt-4">General Rules</h4>
+            <ul>
+              <li className="leading-7 text-color">
+                Registration fees are INR 150
+              </li>
+              <li className="leading-7">
+                Prototypes that cause any kind of harm to the arena will be
+                disqualified.
+              </li>
+              <li>
+                In the event of a disagreement, the judges' decision will be
+                final, and no further arguments will be considered.
+              </li>
+              <li>
+                The event's planners maintain the right to modify any or all of
+                the rules as they see fit. If a modification is made, the
+                registered team will be notified by mail.
+              </li>
+            </ul>
 
-            <p className="text-lg font-semibold">Cash prizes for winners:</p>
+            <h4 className="text-color text-center">Cash prizes for winners:</h4>
             <li>1st position: INR 5000</li>
             <li>2nd position: INR 3000</li>
             <li>3rd position: INR 2000</li>
-            <h2>Workshop will be organized for the same as well.</h2>
           </div>
         </div>
       </div>

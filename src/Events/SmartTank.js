@@ -46,13 +46,6 @@ const SmartTank = () => {
               skills, the potential industrial use, and the results of an
               audience poll.
             </p>
-            <h4 className="text-color text-center">Venue:</h4>
-            <p>
-              The competition will be held indoors so LT-402 can be used and
-              each participant will take 5 - 10 mins to pitch its idea and we
-              expect more than 10 teams so the competition can take 1.5 hours to
-              complete.
-            </p>
 
             <h4 className="text-color text-center">Cash prizes for winners:</h4>
             <li>1st position: INR 3000</li>

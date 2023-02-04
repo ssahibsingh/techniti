@@ -189,6 +189,24 @@ export const data = [
     visit: "event/integrationbee",
     desc: "The Integration Bee is an annual traditional playoff-style event that has gained popularity in US colleges and universities...",
   },
+  {
+    key: 21,
+    name: "BE INQUISITIVE",
+    prize: "",
+    // Imgsrc: require("./files/maths.webp"),
+    link: "register",
+    visit: "event/beinquisitive",
+    desc: "The objective behind this competition is to evaluate the knowledge of the participants within academics as well...",
+  },
+  {
+    key: 22,
+    name: "AD MAD SHOW",
+    prize: "",
+    // Imgsrc: require("./files/maths.webp"),
+    link: "register",
+    visit: "event/admadshow",
+    desc: "Group of 3-4 students, will be asked to create a marketing plan including creating a full-fledged creative ...",
+  },
 ];
 
 export const teamData = [

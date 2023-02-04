@@ -22,18 +22,20 @@ const Chemical2 = () => {
             </div>
 
             <h4 className="text-color text-center">Details:</h4>
-            <li className="leading-7">
-              This competition consists of construction of a car powered by a
-              chemical energy source or reaction.
-            </li>
-            <li>
-              Participants are advised to use their own ideas and materials with
-              effective cost.
-            </li>
-            <li className="leading-7">
-              The winner will be chosen according to the distance covered,
-              material of construction and cost efficiency etc.
-            </li>
+            <ul>
+              <li className="leading-7">
+                This competition consists of construction of a car powered by a
+                chemical energy source or reaction.
+              </li>
+              <li>
+                Participants are advised to use their own ideas and materials
+                with effective cost.
+              </li>
+              <li className="leading-7">
+                The winner will be chosen according to the distance covered,
+                material of construction and cost efficiency etc.
+              </li>
+            </ul>
 
             <h4 className="text-color text-center mt-4">General Rules</h4>
             <ul>

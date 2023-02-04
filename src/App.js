@@ -35,6 +35,8 @@ import Squadoftheyear from "./Events/Squadoftheyear";
 import Workshop from "./Events/Workshop";
 import SmartTank from "./Events/SmartTank";
 import LumenTrace from "./Events/LumenTrace";
+import BeInquisitive from "./Events/BeInquisitive";
+import Admadshow from "./Events/Admadshow";
 
 function App() {
   return (
@@ -94,6 +96,12 @@ function App() {
               exact
             />
             <Route path="/event/uavdrone" element={<UAVDrone />} exact />
+            <Route
+              path="/event/beinquisitive"
+              element={<BeInquisitive />}
+              exact
+            />
+            <Route path="/event/admadshow" element={<Admadshow />} exact />
             <Route path="register" element={<Registration />} exact />
           </Routes>
         </ScrollToTop>

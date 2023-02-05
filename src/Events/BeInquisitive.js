@@ -6,7 +6,9 @@ const BeInquisitive = () => {
       <div className="singleevents">
         <div className="para-text flex justify-evenly p-2 gap-5 ">
           <div>
-            <h1 className="text-center text-3xl font-bold ">BeInquisitive</h1>
+            <h1 className="text-center text-3xl font-bold text-uppercase ">
+              Be Inquisitive
+            </h1>
           </div>
 
           <div className="px-2">
@@ -69,9 +71,9 @@ const BeInquisitive = () => {
             </ol>
 
             <h4 className="text-color text-center">Cash prizes for winners:</h4>
-            <li>1st position: INR </li>
-            <li>2nd position: INR </li>
-            <li>3rd position: INR </li>
+            <li>1st position: To Be Decided</li>
+            <li>2nd position: To Be Decided </li>
+            <li>3rd position: To Be Decided </li>
           </div>
         </div>
       </div>

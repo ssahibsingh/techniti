@@ -37,17 +37,17 @@ import SmartTank from "./Events/SmartTank";
 import LumenTrace from "./Events/LumenTrace";
 import BeInquisitive from "./Events/BeInquisitive";
 import Admadshow from "./Events/Admadshow";
+import LeadershipMentor from "./components/LeadershipMentor";
 
 function App() {
   return (
     <>
-      {/* <ParticleBackground /> */}
       <Router>
         <NavbarN />
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} exact />
-            {/* <Route path="/register" element={<Registration />} exact /> */}
+
             <Route path="/event" element={<Events />} exact />
             {/* <Route path="/team" element={<OurTeam />} exact /> */}
             <Route path="/about" element={<AboutUs />} exact />
@@ -102,6 +102,11 @@ function App() {
               exact
             />
             <Route path="/event/admadshow" element={<Admadshow />} exact />
+            <Route
+              path="/event/leadershipandmentoring"
+              element={<LeadershipMentor />}
+              exact
+            />
             <Route path="register" element={<Registration />} exact />
           </Routes>
         </ScrollToTop>

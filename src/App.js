@@ -107,6 +107,11 @@ function App() {
               element={<LeadershipMentor />}
               exact
             />
+            <Route
+              path="/event/best-from-waste"
+              element={<BestFromWaste />}
+              exact
+            />
             <Route path="register" element={<Registration />} exact />
           </Routes>
         </ScrollToTop>

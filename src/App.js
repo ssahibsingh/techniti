@@ -38,6 +38,7 @@ import LumenTrace from "./Events/LumenTrace";
 import BeInquisitive from "./Events/BeInquisitive";
 import Admadshow from "./Events/Admadshow";
 import LeadershipMentor from "./components/LeadershipMentor";
+import PrayaasReg from "./components/PrayaasReg";
 
 function App() {
   return (
@@ -113,6 +114,7 @@ function App() {
               exact
             />
             <Route path="register" element={<Registration />} exact />
+            <Route path="prayaasregister" element={<PrayaasReg />} exact />
           </Routes>
         </ScrollToTop>
         <Footer />

@@ -92,9 +92,9 @@ export const data = [
   {
     key: 10,
     name: "prayaas",
-    prize: "3000",
+    prize: "",
     Imgsrc: require("./files/prayaas.webp"),
-    link: "register",
+    link: "prayaasregister",
     visit: "event/prayaas",
     desc: "To educate underprivileged and socially marginalized youth who lack access to education, especially those who are the...",
   },

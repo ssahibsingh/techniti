@@ -32,10 +32,11 @@ const Header = () => {
                         type="button"
                         className="btn btn-lg btn-grey my-3 px-4 py-1 w-100 h-100"
                       >
-                        Explore More <i className="fa-solid fa-arrow-right bg-trans"></i>
+                        Explore  <i className="fa-solid fa-arrow-right bg-trans"></i>
                       </button>
                     </a>
                   </div>
+                
                 </div>
               </div>
             </div>

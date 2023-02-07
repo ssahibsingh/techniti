@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import TreasureHunt from "../Events/TreasureHunt";
 import Events from "./Events";
 import About from "./Home/About";
 import Header from "./Home/Header";
@@ -11,7 +12,9 @@ const Home = () => {
     <>
       {/* <ParticleBackground /> */}
       <Header />
+      <TreasureHunt />
       <About />
+
       <Events count={3} />
       <div className="mb-5 text-center">
         <Link

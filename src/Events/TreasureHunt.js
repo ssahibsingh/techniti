@@ -6,7 +6,7 @@ const TreasureHunt = () => {
   return (
     <>
       <h2 className="text-center text-color upcoming">Upcoming Events</h2>
-      <div className="d-flex justify-content-center align-items-center mx-auto">
+      <div className="d-flex justify-content-center align-items-center mx-auto flex-wrap">
         <div className="col-md-4 col-sm-6 col-12">
           <div className="p-4">
             <div className="eventcard card mb-5 border-0 p-4">

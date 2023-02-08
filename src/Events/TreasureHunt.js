@@ -25,7 +25,7 @@ const TreasureHunt = () => {
                 <p className="fw-bold text-green">Price: INR 65</p>
                 <div className="d-flex flex-column gap-2">
                   <a
-                    href="tel:+91 70600 60523"
+                    href="https://forms.gle/1a3jDyT3PHmZtJch7"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -31,12 +31,11 @@ const LeadershipMentor = () => {
               <li className="leading-7">
                 Participants need to pick a movie, series or anything in reel
                 life and showcase how Management or leadership lessons can be
-                applied in real life.
+                applied in real life. Also Suggest the company or organisation
+                which can use your management lesson in their situation.You can
+                make use of ppts, scripts or anything to present the same.
               </li>
-              <li className="leading-7">
-                Suggest the company or organisation which can use your
-                management lesson in their situation.
-              </li>
+
               <li className="leading-7">
                 Final decision will be taken by judges.
               </li>

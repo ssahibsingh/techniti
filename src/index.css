@@ -294,7 +294,8 @@ a {
   color: #58f6aa;
 }
 
-.dates-font {
+.dates-font,
+.upcoming {
   font-family: "Josefin Sans", sans-serif;
   animation: blink linear 1.2s infinite;
   background: #00ff00;

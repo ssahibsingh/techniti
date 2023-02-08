@@ -12,6 +12,7 @@ const Home = () => {
     <>
       {/* <ParticleBackground /> */}
       <Header />
+
       <TreasureHunt />
       <About />
 

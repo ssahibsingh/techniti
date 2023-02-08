@@ -51,13 +51,13 @@ const TreasureHunt = () => {
                 alt={TreasureHunt}
               />
               <h5 className="card-title text-uppercase fw-bold fs-4 text-center mt-4 bg-trans">
-                TreasureHunt Notebooks
+                TreasureHunt
               </h5>
               <div className="card-body bg-trans">
                 <p className="card-text bg-trans">
                   Treasure hunt is one of the most popular events held every
                   year in our College .Students participate in it with great
-                  pomp and fervour
+                  pomp and ...
                 </p>
                 <div className="text-center">
                   <p className="fw-bold text-green">Wish You Best of Luck!</p>

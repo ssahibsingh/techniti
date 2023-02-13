@@ -83,14 +83,24 @@ export const data = [
   {
     key: 9,
     name: "Squad of the year",
-    prize: "Momentos & Goodies",
-    Imgsrc: require("./files/3bhk.webp"),
-    link: "register",
+    prize: "8000",
+    Imgsrc: require("./files/squadoftheyear.webp"),
+    link: "http://surl.li/euwiw",
     visit: "event/squadoftheyear",
-    desc: "The Aim of the event is to teach the students about the practical application of building construction...",
+    desc: `When worst comes to worst, my squad comes first.  Look through the canon...`,
   },
+
   {
     key: 10,
+    name: "Green Tecton",
+    prize: "8600",
+    Imgsrc: require("./files/greentecton.webp"),
+    link: "https://docs.google.com/forms/d/1TLwq6oO2DsrhBT_tDFFrRaa_t8cL_Cv7mlucgciLk3E/edit",
+    visit: "event/greentecton",
+    desc: "The core aim of the project is to provide a Structure design of 250yd (standard urban house size) plot size 30’X75’...",
+  },
+  {
+    key: 11,
     name: "prayaas",
     prize: "",
     Imgsrc: require("./files/prayaas.webp"),
@@ -99,7 +109,7 @@ export const data = [
     desc: "To educate underprivileged and socially marginalized youth who lack access to education, especially those who are the...",
   },
   {
-    key: 11,
+    key: 12,
     name: "chem-e-design",
     prize: "10000",
     Imgsrc: require("./files/chemedesign.webp"),
@@ -108,7 +118,7 @@ export const data = [
     desc: "The event will involve designing a highly efficient and leakage proof heat exchanger and then...",
   },
   {
-    key: 12,
+    key: 13,
     name: "RCcars",
     prize: "14000",
     Imgsrc: require("./files/rccar.webp"),
@@ -117,7 +127,7 @@ export const data = [
     desc: "The basic task is to Design and make a wireless or wired Remote Controlled (RC) Car Powered by batteries and using a DC motor ...",
   },
   {
-    key: 13,
+    key: 14,
     name: "atv Racing",
     prize: "",
     Imgsrc: require("./files/atv.webp"),
@@ -126,7 +136,7 @@ export const data = [
     desc: "Our self-manufactured ATV is exhibited in fully running condition and workshop would be commanded by various...",
   },
   {
-    key: 14,
+    key: 15,
     name: "CHEM-E-HUNT",
     prize: "3000",
     Imgsrc: require("./files/chemehunt.webp"),
@@ -135,7 +145,7 @@ export const data = [
     desc: "Chem -e- hunt is a treasure hunt in which  numericals related to chemical engineering will be asked ...",
   },
   {
-    key: 15,
+    key: 16,
     name: "bolt-bolt",
     prize: "15000",
     Imgsrc: require("./files/boltbolt.webp"),
@@ -144,7 +154,7 @@ export const data = [
     desc: "It is a competition in which a team of 4 has to make a remote controlled robot car which has to race with other ...",
   },
   {
-    key: 16,
+    key: 17,
     name: "lumen trace",
     prize: "10500",
     Imgsrc: require("./files/lumentrace.webp"),
@@ -153,7 +163,7 @@ export const data = [
     desc: "In this competition a team of 4 has to create a color sensing robot which will be placed on an arena with different ...",
   },
   {
-    key: 17,
+    key: 18,
     name: "smart tank",
     prize: "6000",
     Imgsrc: require("./files/smarttank.webp"),
@@ -163,7 +173,7 @@ export const data = [
   },
 
   {
-    key: 18,
+    key: 19,
     name: "Best from waste",
     prize: "5000",
     Imgsrc: require("./files/bestfromwaste.webp"),
@@ -172,7 +182,7 @@ export const data = [
     desc: "The event will involve crafting environmental friendly and engineering based prototypes by recycling the waste materials....",
   },
   {
-    key: 19,
+    key: 20,
     name: "trickycircuits",
     prize: "5000",
     Imgsrc: require("./files/trickycircuits.webp"),
@@ -181,7 +191,7 @@ export const data = [
     desc: "Tricky Circuits is a competition where participants will be given circuits consisting of resistors, gates, and ...",
   },
   {
-    key: 20,
+    key: 21,
     name: "gaNIT",
     prize: "5000",
     Imgsrc: require("./files/maths.webp"),
@@ -190,7 +200,7 @@ export const data = [
     desc: "The Integration Bee is an annual traditional playoff-style event that has gained popularity in US colleges and universities...",
   },
   {
-    key: 21,
+    key: 22,
     name: "BE INQUISITIVE",
     prize: "5000",
     Imgsrc: require("./files/beinquisitive.webp"),
@@ -199,7 +209,7 @@ export const data = [
     desc: "The objective behind this competition is to evaluate the knowledge of the participants within academics as well...",
   },
   {
-    key: 22,
+    key: 23,
     name: "AD MAD SHOW",
     prize: "5000",
     Imgsrc: require("./files/admadshow.webp"),
@@ -208,7 +218,7 @@ export const data = [
     desc: "Group of 3-4 students, will be asked to create a marketing plan including creating a full-fledged creative ...",
   },
   {
-    key: 23,
+    key: 24,
     name: "Leadership & Mentoring",
     prize: "5000",
     Imgsrc: require("./files/leadershipandmentoring.webp"),

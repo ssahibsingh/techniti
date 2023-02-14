@@ -2,6 +2,7 @@ import React from "react";
 import tta from "../files/tta.png";
 import nitj from "../files/nitj.png";
 import iic from "../files/iic.png";
+import rulesandregulation from "../files/pdf/rulesandregulation.pdf";
 
 const AboutUs = () => {
   return (
@@ -84,6 +85,13 @@ const AboutUs = () => {
               <p className="mt-2 fs-5">IIC</p>
             </div>
           </div>
+        </div>
+        <div className="d-flex justify-content-center mt-5">
+          <a href={rulesandregulation} target="_blank">
+            <button className="btn btn-green mx-auto w-125 rounded">
+              Rules and Regulations*
+            </button>
+          </a>
         </div>
       </div>
     </div>

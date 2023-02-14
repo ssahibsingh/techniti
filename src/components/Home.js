@@ -6,6 +6,7 @@ import About from "./Home/About";
 import Header from "./Home/Header";
 import Sponsor from "./Home/Sponsor";
 import Timeline from "./Home/Timeline";
+import StarNight from "./StarNight";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Header />
 
       {/* <TreasureHunt /> */}
+      {/* <StarNight /> */}
       <About />
 
       <Events count={3} />

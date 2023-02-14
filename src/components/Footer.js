@@ -25,6 +25,7 @@ const Footer = () => {
                 <i className="fa-solid fa-arrow-up-right-from-square fa-sm text-color"></i>
               </a>
             </p>
+
             <div className="col-md-4 col-sm-12 col-12 text-center">
               <ul className="list-unstyled d-flex  justify-content-center align-items-center gap-3 home-icons">
                 <li className="">

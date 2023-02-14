@@ -359,3 +359,11 @@ a {
   width: 50%;
   margin: auto;
 }
+
+.content {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.start-image {
+  width: 70%;
+}

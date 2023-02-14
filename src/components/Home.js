@@ -4,18 +4,16 @@ import TreasureHunt from "../Events/TreasureHunt";
 import Events from "./Events";
 import About from "./Home/About";
 import Header from "./Home/Header";
+import RegisterforStar from "./Home/RegisterforStar";
 import Sponsor from "./Home/Sponsor";
 import Timeline from "./Home/Timeline";
-import StarNight from "./StarNight";
 
 const Home = () => {
   return (
     <>
-      {/* <ParticleBackground /> */}
       <Header />
 
-      {/* <TreasureHunt /> */}
-      {/* <StarNight /> */}
+      <RegisterforStar />
       <About />
 
       <Events count={3} />

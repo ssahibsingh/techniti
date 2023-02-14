@@ -4,7 +4,8 @@ const About = () => {
   return (
     <>
       <div className="section-about" id="about">
-        <div className="container">
+      
+        <div className="container ">
           <div className="text-center bg-inherit">
             <h1 className="bg-inherit display-5 fw-bold text-uppercase">
               About
@@ -14,7 +15,7 @@ const About = () => {
             </p>
           </div>
           <div className="row justify-content-center">
-            <div className="about-content my-5">
+            <div className="about-content my-5 ">
               <p className="fs-5">
                 TechNITi is just not an event but a celebration of colors of
                 innovation and management and aims to foster the entrepreneurial

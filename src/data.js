@@ -226,6 +226,15 @@ export const data = [
     visit: "event/leadershipandmentoring",
     desc: "The objective behind this competition is to evaluate the individuals' leadership, presentation ...",
   },
+  {
+    key: 25,
+    name: "Gaming Events",
+    prize: "35000",
+    Imgsrc: require("./files/gaming.gif"),
+    link: "https://gsquare.games/",
+    visit: "https://gsquare.games/",
+    desc: "Join us for a thrilling gaming experience! Get ready to battle it out with fellow gamers, test your skills,  ...",
+  },
 ];
 
 export const teamData = [

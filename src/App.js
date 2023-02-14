@@ -40,6 +40,7 @@ import Admadshow from "./Events/Admadshow";
 import LeadershipMentor from "./components/LeadershipMentor";
 import PrayaasReg from "./components/PrayaasReg";
 import GreenTecton from "./Events/GreenTecton";
+import StarNight from "./components/StarNight";
 
 function App() {
   return (
@@ -117,6 +118,7 @@ function App() {
             <Route path="register" element={<Registration />} exact />
             <Route path="prayaasregister" element={<PrayaasReg />} exact />
             <Route path="event/greentecton" element={<GreenTecton />} exact />
+            <Route path="starnight" element={<StarNight />} exact />
           </Routes>
         </ScrollToTop>
         <Footer />

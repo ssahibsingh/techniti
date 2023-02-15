@@ -5,7 +5,7 @@ const Timeline = () => {
     {
       day: 1,
       date:"25 Feb",
-      events: ["Opening Ceremony", "Hackathon", "RC Racing", "DJ Night"],
+      events: ["Opening Ceremony", "Hackathon", "RC Racing", "EDM"],
     },
     {
       day: 2,
@@ -15,7 +15,7 @@ const Timeline = () => {
         "Startup Mela",
         "Investment Meet",
         "ROBO War",
-        "EDM",
+        "DJ Night",
         "Fashion Show",
       ],
     },
@@ -27,7 +27,7 @@ const Timeline = () => {
     {
       day: 4,
       date:"28 Feb",
-      events: ["Science Day", "Closing Ceremony", "Comedy Show"],
+      events: ["Science Day", "Closing Ceremony", ""],
     },
   ];
   return (

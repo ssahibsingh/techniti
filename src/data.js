@@ -147,7 +147,7 @@ export const data = [
   {
     key: 16,
     name: "bolt-bolt",
-    prize: "15000",
+    prize: "10500",
     Imgsrc: require("./files/boltbolt.webp"),
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfQgPcII4r-kYbSFE2TYXoTnQj1QyoP6aNZdaC8q5-XsIlHzw/viewform?usp=sf_link",
     visit: "event/bolt-bolt",
@@ -156,7 +156,7 @@ export const data = [
   {
     key: 17,
     name: "lumen trace",
-    prize: "10500",
+    prize: "15000",
     Imgsrc: require("./files/lumentrace.webp"),
     link: "https://forms.gle/GdCrimFcpytXpT7t6",
     visit: "event/lumen-trace",

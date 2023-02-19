@@ -1,5 +1,5 @@
 import React from "react";
-
+import lumenTracerulebook from "../files/pdf/lumenTracerulebook.pdf";
 const LumenTrace = () => {
   return (
     <div className="container">
@@ -40,10 +40,30 @@ const LumenTrace = () => {
               to get back on track and complete the course.
             </p>
 
-            <h4 className="text-color text-center">Cash prizes for winners:</h4>
-            <li>1st position: INR 5000</li>
-            <li>2nd position: INR 3500</li>
-            <li>3rd position: INR 2000</li>
+            <h4 className="text-color text-center">
+              Prizes Worth for winners:
+            </h4>
+            <li>1st position: INR 7000</li>
+            <li>2nd position: INR 5000</li>
+            <li>3rd position: INR 3000</li>
+            <li>
+              For Goodies and Coupons refer to{" "}
+              <button className="btn btn-green mx-auto w-125 rounded">
+                <a
+                  href="https://www.instagram.com/rtist_nitj/"
+                  className="bg-trans"
+                >
+                  Rtist Instagram Page
+                </a>
+              </button>
+            </li>
+          </div>
+          <div className="d-flex justify-content-center mt-5">
+            <a href={lumenTracerulebook} target="_blank">
+              <button className="btn btn-green mx-auto w-125 rounded">
+                Download RuleBook
+              </button>
+            </a>
           </div>
         </div>
       </div>

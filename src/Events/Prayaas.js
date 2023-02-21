@@ -37,7 +37,7 @@ const Prayaas = () => {
               Prayaas events for Techniti 2023
             </h4>
             <h4 className="text-color  text-center">Events</h4>
-            <h5 className="text-color  ">Dance</h5>
+            {/* <h5 className="text-color  ">Dance</h5>
             <p>
               Through song and dance, our little dancers' imaginations are
               piqued while their coordination, listening abilities, and
@@ -53,7 +53,7 @@ const Prayaas = () => {
                 stage, wowing the audience with their incredible dancing
                 talents.
               </li>
-            </ul>
+            </ul> */}
             <h5 className="text-color  ">Games and Fun Events</h5>
             <p>
               Games and Fun events will be organised by PRAYAAS for everyone, to

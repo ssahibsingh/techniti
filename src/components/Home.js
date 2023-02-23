@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import TreasureHunt from "../Events/TreasureHunt";
 import Events from "./Events";
 import About from "./Home/About";
+import EventSchedule from "./EventSchedule";
 import Header from "./Home/Header";
 import RegisterforStar from "./Home/RegisterforStar";
 import Sponsor from "./Home/Sponsor";
@@ -12,7 +13,7 @@ const Home = () => {
   return (
     <>
       <Header />
-
+      <EventSchedule/>
       <RegisterforStar />
       <About />
 

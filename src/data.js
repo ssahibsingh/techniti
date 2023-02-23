@@ -235,6 +235,15 @@ export const data = [
     visit: "https://gsquare.games/",
     desc: "Join us for a thrilling gaming experience! Get ready to battle it out with fellow gamers, test your skills,  ...",
   },
+  {
+    key: 26,
+    name: "BioMod",
+    prize: "3000",
+    Imgsrc: require("./files/biotech.webp"),
+    link: "https://docs.google.com/forms/d/1IzxZ8mkAScfW3kcf07ScKEG2kwTzXlBfEMfN3NJIVIM/viewform?ts=63f65da3&edit_requested=true#responses",
+    visit: "event/biotech",
+    desc: "BioMod is the event that bridges Biology and technology with modeling. The model should be based of Bioremediation  ...",
+  },
 ];
 
 export const teamData = [

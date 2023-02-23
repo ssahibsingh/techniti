@@ -41,6 +41,7 @@ import LeadershipMentor from "./components/LeadershipMentor";
 import PrayaasReg from "./components/PrayaasReg";
 import GreenTecton from "./Events/GreenTecton";
 import StarNight from "./components/StarNight";
+import Biotech from "./Events/Biotech";
 
 function App() {
   return (
@@ -119,6 +120,7 @@ function App() {
             <Route path="prayaasregister" element={<PrayaasReg />} exact />
             <Route path="event/greentecton" element={<GreenTecton />} exact />
             <Route path="starnight" element={<StarNight />} exact />
+            <Route path="event/biotech" element={<Biotech />} exact />
           </Routes>
         </ScrollToTop>
         <Footer />

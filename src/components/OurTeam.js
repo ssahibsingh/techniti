@@ -27,12 +27,12 @@ const OurTeam = () => {
                             </a>
                           )}
                           {team.insta && (
-                            <a href="https://www.instagram.com/">
+                            <a href={team.insta} target="_blank">
                               <i className="fab fa-instagram"></i>
                             </a>
                           )}
                           {team.linkedin && (
-                            <a href="https://www.linkedin.com/">
+                            <a href={team.linkedin} target="_blank">
                               <i className="fab fa-linkedin-in"></i>
                             </a>
                           )}

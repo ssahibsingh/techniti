@@ -259,7 +259,7 @@ export const teamData = [
     key: 2,
     name: "Aditya Mishra",
     role: "Marketing Head",
-    img: "https://picsum.photos/200/200",
+    img: require("./files/aditya.png"),
     linkedin: "https://www.linkedin.com/in/aditya-mishra-b0361a1a6",
     insta: "https://instagram.com/aditya000333?igshid=ZDc4ODBmNjlmNQ==",
   },
